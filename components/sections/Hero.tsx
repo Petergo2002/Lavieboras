@@ -25,7 +25,7 @@ export default function Hero() {
             <div className="hidden lg:flex absolute right-12 top-1/2 -translate-y-1/2 z-10 flex-col items-center gap-8 text-white/20">
                 <div className="w-[1px] h-40 bg-gradient-to-b from-transparent via-gold-500/50 to-transparent" />
                 <span className="writing-vertical-rl text-xs tracking-[0.5em] font-light uppercase mix-blend-overlay">
-                    Est. 2024 • Borås
+                    Est. 2026 • Borås
                 </span>
                 <div className="w-[1px] h-40 bg-gradient-to-b from-transparent via-gold-500/50 to-transparent" />
             </div>
