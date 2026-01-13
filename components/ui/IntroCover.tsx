@@ -11,9 +11,9 @@ export default function IntroCover() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
-                className="absolute top-[38vh] md:top-[35vh] text-center w-full z-40 pointer-events-none"
+                className="absolute top-[32vh] md:top-[35vh] text-center w-full z-40 pointer-events-none"
             >
-                <span className="font-script text-3xl md:text-5xl text-gold-500/90 tracking-wide">Välkommen till</span>
+                <span className="font-script text-2xl md:text-5xl text-gold-500/90 tracking-wide">Välkommen till</span>
             </motion.div>
 
             {/* Scroll Indicator */}
