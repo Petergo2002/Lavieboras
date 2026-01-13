@@ -10,14 +10,14 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
-        slug: "herrmode-boras-2024",
-        title: "Herrfrisyrer 2024 i Borås: Trendguide från Din Barberare",
-        date: "08 JAN 2024",
+        slug: "herrmode-boras-2026",
+        title: "Herrfrisyrer 2026 i Borås: Trendguide från Din Barberare",
+        date: "08 JAN 2026",
         image: "/blog-trends.png",
         excerpt: "Från klassiska fades till längre texturerade frisyrer. Här är den ultimata guiden till årets snyggaste herrfrisyrer i Borås från din lokala barberare.",
-        keywords: ["herrfrisör borås", "frisör borås 2024", "fade borås", "barberare borås", "low taper fade", "herrfrisyrer trender", "bästa frisör borås"],
+        keywords: ["herrfrisör borås", "frisör borås 2026", "fade borås", "barberare borås", "low taper fade", "herrfrisyrer trender", "bästa frisör borås"],
         content: `
-            <p class="lead">Borås är en stad med en stark modetradition, och 2024 är inget undantag. Som frisör i Borås ser vi en spännande shift från de ultra-strikta stilarna till något mer levande och personligt. Här är trenderna som dominerar stadsbilden just nu.</p>
+            <p class="lead">Borås är en stad med en stark modetradition, och 2026 är inget undantag. Som frisör i Borås ser vi en spännande shift från de ultra-strikta stilarna till något mer levande och personligt. Här är trenderna som dominerar stadsbilden just nu.</p>
             
             <h3>1. The Textured Crop (Texturerad Lugg)</h3>
             <p>Detta är årets stora vinnare hos oss på Salong LaVie i Borås. En kort frisyr med mycket textur på toppen och en framåtriktad lugg. Det är den perfekta kombinationen av "business" och "casual". Den kräver minimal styling men ser alltid genomtänkt ut. Be din barberare om en "French Crop" med mycket texturering.</p>
@@ -29,7 +29,7 @@ export const blogPosts: BlogPost[] = [
             <p>Om du vill ha en ren look men ändå behålla längd och volym, är en Low Taper Fade det självklara valet. Till skillnad från en hög skin-fade som exponerar mycket hud, ger en låg taper en mjukare övergång vid polisonger och nacke. Det är elegant, tidlöst och ser fantastiskt ut när det växer ut. En klassiker som vi utför dagligen som herrfrisör i Borås.</p>
 
             <h3>4. Buzz Cut med karaktär</h3>
-            <p>För den som vill ha det ultimat lättskötta. Men 2024 handlar Buzz Cut inte bara om att raka av allt. Vi ser varianter med linjer, färgade inslag eller geometriska former i nacken. Det är ett statement.</p>
+            <p>För den som vill ha det ultimat lättskötta. Men 2026 handlar Buzz Cut inte bara om att raka av allt. Vi ser varianter med linjer, färgade inslag eller geometriska former i nacken. Det är ett statement.</p>
 
             <blockquote>"En bra frisyr handlar inte om att blint följa en trend, utan om att hitta den version av trenden som förstärker dina bästa drag." - Salong LaVie, Borås</blockquote>
 
@@ -39,7 +39,7 @@ export const blogPosts: BlogPost[] = [
     {
         slug: "varda-skagg-tips",
         title: "Skäggvård i Borås: Din Barberares Guide till Perfekt Skägg",
-        date: "15 JAN 2024",
+        date: "15 JAN 2026",
         image: "/blog-beard.png",
         excerpt: "Ett snyggt skägg är ingen slump. Det kräver kärlek, rutiner och rätt produkter. Lär dig hemligheterna bakom ett perfekt skägg från professionella barberare i Borås.",
         keywords: ["skäggvård borås", "barberare borås skägg", "skäggtrimning", "bästa frisör borås skägg", "skäggolja tips", "skäggschampo"],
@@ -68,7 +68,7 @@ export const blogPosts: BlogPost[] = [
     {
         slug: "lavie-upplevelsen",
         title: "Bästa Frisörsalongen i Borås: Lavie-upplevelsen",
-        date: "22 JAN 2024",
+        date: "22 JAN 2026",
         image: "/blog-experience.png",
         excerpt: "Varför nöja sig med en snabbklippning när du kan få en stunds avkoppling? Upptäck varför Salong LaVie är Borås mest exklusiva frisörsalong.",
         keywords: ["bästa frisör borås", "salong lavie", "premium barber shop borås", "lyx frisör borås", "frisörsalong centrum borås", "exklusiv frisör"],
