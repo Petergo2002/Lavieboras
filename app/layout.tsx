@@ -9,7 +9,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 const pinyon = Pinyon_Script({ weight: "400", subsets: ["latin"], variable: "--font-pinyon-script" });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://salonglavie.se'),
+    metadataBase: new URL('https://lavieboras.se'),
     title: {
         default: "Salong LaVie | Frisör & Barberare i Borås",
         template: "%s | Salong LaVie Borås"
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         locale: 'sv_SE',
-        url: 'https://salonglavie.se',
+        url: 'https://lavieboras.se',
         siteName: 'Salong LaVie',
         title: 'Salong LaVie | Frisör & Barberare i Borås',
         description: 'Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling. Boka tid: 070-757 87 79',
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
         images: ['/IMG_8735.JPG'],
     },
     alternates: {
-        canonical: 'https://salonglavie.se',
+        canonical: 'https://lavieboras.se',
     },
     category: 'Frisör',
     icons: {
@@ -81,9 +81,9 @@ const jsonLd = {
     name: 'Salong LaVie',
     alternateName: 'LaVie Borås',
     description: 'Premium frisörsalong och barberare i centrala Borås. Specialister på herrklippning, skäggvård och styling.',
-    url: 'https://salonglavie.se',
+    url: 'https://lavieboras.se',
     telephone: '+46707578779',
-    email: 'info@salonglavie.se',
+    email: 'info@lavieboras.se',
     address: {
         '@type': 'PostalAddress',
         streetAddress: 'Västerlånggatan 1',
@@ -112,7 +112,7 @@ const jsonLd = {
         }
     ],
     priceRange: '$$',
-    image: 'https://salonglavie.se/IMG_8735.JPG',
+    image: 'https://lavieboras.se/IMG_8735.JPG',
     sameAs: [
         'https://instagram.com/lavieboras',
         'https://www.facebook.com/SalongLaVieBoras/'

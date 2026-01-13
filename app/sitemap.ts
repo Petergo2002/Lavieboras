@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/blog-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://salonglavie.se' // Update with actual domain when known
+    const baseUrl = 'https://lavieboras.se'
 
     // Static pages
     const staticPages: MetadataRoute.Sitemap = [

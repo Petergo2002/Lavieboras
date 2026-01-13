@@ -2,7 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://salonglavie.se/sitemap.xml
-
-# Block access to admin or private areas (if any in future)
-# Disallow: /admin/
+Sitemap: https://lavieboras.se/sitemap.xml

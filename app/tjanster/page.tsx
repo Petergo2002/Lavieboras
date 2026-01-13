@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     description: "Se våra priser för herrklippning, skäggvård, färgning och barnklippning. Salong LaVie - din professionella frisör och barberare i centrala Borås.",
     keywords: ["frisör priser borås", "herrklippning pris", "skäggvård borås", "barnklippning borås", "frisörsalong borås priser"],
     alternates: {
-        canonical: 'https://salonglavie.se/tjanster',
+        canonical: 'https://lavieboras.se/tjanster',
     },
     openGraph: {
         title: "Priser & Tjänster | Salong LaVie Borås",
         description: "Herrklippning från 250 kr, Skäggvård från 200 kr. Boka tid hos Borås bästa frisör!",
-        url: 'https://salonglavie.se/tjanster',
+        url: 'https://lavieboras.se/tjanster',
     },
 };
 

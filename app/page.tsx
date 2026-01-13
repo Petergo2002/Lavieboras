@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "Salong LaVie är Borås ledande frisörsalong och barberare. Professionell herrklippning, skäggvård och styling i centrala Borås. Boka tid: 070-757 87 79",
     keywords: ["frisör borås", "barberare borås", "salong lavie", "herrfrisör borås", "klippning borås"],
     alternates: {
-        canonical: 'https://salonglavie.se',
+        canonical: 'https://lavieboras.se',
     },
 };
 
