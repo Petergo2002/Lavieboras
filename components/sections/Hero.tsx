@@ -47,7 +47,7 @@ export default function Hero() {
                         </span>
 
                         {/* Main Slogan - Stacked & Bold - LARGER on Mobile */}
-                        <h1 className="text-white font-sans font-bold text-5xl sm:text-6xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tighter mb-10 lg:mb-8">
+                        <h1 className="text-white font-sans font-bold text-5xl sm:text-6xl md:text-6xl lg:text-[5rem] leading-[0.9] tracking-tighter mb-12 lg:mb-16">
                             <span className="block text-white drop-shadow-2xl">
                                 PRECISION.
                             </span>
@@ -59,15 +59,10 @@ export default function Hero() {
                             </span>
                         </h1>
 
-                        {/* Description */}
-                        <p className="text-gray-200 text-sm sm:text-base lg:text-lg font-light tracking-wide max-w-md lg:max-w-lg mb-12 lg:mb-10 leading-relaxed">
-                            Upplev en modern barbershop <span className="text-gold-500 font-medium">i Borås</span> där klassiskt hantverk möter nutida stil. Vi skapar mer än bara frisyrer – vi bygger din image.
-                        </p>
-
                         {/* Single CTA Button - Links to Phone - Pushed lower on mobile */}
                         <a
                             href="tel:0707578779"
-                            className="bg-gold-500 text-dark-900 px-10 py-4 lg:px-12 lg:py-5 font-sans font-medium tracking-wider text-xs sm:text-sm lg:text-base uppercase hover:bg-white hover:text-dark-900 transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_35px_rgba(255,255,255,0.4)] flex items-center justify-center gap-2 rounded-full transform hover:scale-105"
+                            className="bg-gold-500 text-dark-900 px-10 py-4 lg:px-12 lg:py-5 font-sans font-bold tracking-wide text-xs sm:text-sm lg:text-base uppercase hover:bg-white hover:text-dark-900 transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_35px_rgba(255,255,255,0.4)] flex items-center justify-center gap-2 rounded-full transform hover:scale-105"
                         >
                             Boka Tid Nu
                         </a>

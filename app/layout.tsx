@@ -3,6 +3,7 @@ import { Inter, Playfair_Display, Pinyon_Script } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import SmoothScrolling from "@/components/smooth-scrolling";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair-display" });
@@ -165,7 +166,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="sv" className="scroll-smooth">
+        <html lang="sv">
             <head>
                 <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
                 <link rel="shortcut icon" type="image/jpeg" href="/favicon.jpg" />
@@ -176,11 +177,13 @@ export default function RootLayout({
                 />
             </head>
             <body className={`${inter.variable} ${playfair.variable} ${pinyon.variable} bg-dark-900 text-white antialiased`}>
-                <div className="overflow-x-hidden relative w-full">
-                    <Navbar />
-                    {children}
-                    <Footer />
-                </div>
+                <SmoothScrolling>
+                    <div className="overflow-x-hidden relative w-full">
+                        <Navbar />
+                        {children}
+                        <Footer />
+                    </div>
+                </SmoothScrolling>
             </body>
         </html>
     );
