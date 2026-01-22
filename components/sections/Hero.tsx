@@ -61,7 +61,7 @@ export default function Hero() {
 
                         {/* Single CTA Button - Links to Phone - Pushed lower on mobile */}
                         <a
-                            href="tel:0707578779"
+                            href="tel:0707678779"
                             className="bg-gold-500 text-dark-900 px-10 py-4 lg:px-12 lg:py-5 font-sans font-bold tracking-wide text-xs sm:text-sm lg:text-base uppercase hover:bg-white hover:text-dark-900 transition-all duration-300 shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_35px_rgba(255,255,255,0.4)] flex items-center justify-center gap-2 rounded-full transform hover:scale-105"
                         >
                             Boka Tid Nu

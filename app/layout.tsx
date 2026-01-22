@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: 'https://lavieboras.se',
         siteName: 'Salong LaVie',
         title: 'Salong LaVie | Frisör & Barberare i Borås',
-        description: 'Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling. Boka tid: 070-757 87 79',
+        description: 'Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling. Boka tid: 070-767 87 79',
         images: [
             {
                 url: '/IMG_8735.JPG',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Salong LaVie | Frisör & Barberare i Borås',
-        description: 'Borås bästa frisörsalong och barberare. Boka tid: 070-757 87 79',
+        description: 'Borås bästa frisörsalong och barberare. Boka tid: 070-767 87 79',
         images: ['/IMG_8735.JPG'],
     },
     alternates: {
@@ -83,7 +83,7 @@ const jsonLd = {
     alternateName: 'LaVie Borås',
     description: 'Premium frisörsalong och barberare i centrala Borås. Specialister på herrklippning, skäggvård och styling.',
     url: 'https://lavieboras.se',
-    telephone: '+46707578779',
+    telephone: '+46707678779',
     email: 'info@lavieboras.se',
     address: {
         '@type': 'PostalAddress',

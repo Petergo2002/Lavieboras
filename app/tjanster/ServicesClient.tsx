@@ -156,10 +156,10 @@ export default function ServicesClient() {
                 <div className="container mx-auto px-6 text-center relative z-10">
                     <h2 className="font-serif text-4xl text-white mb-8">Redo att boka din frisör i Borås?</h2>
                     <a
-                        href="tel:0707578779"
+                        href="tel:0707678779"
                         className="inline-block px-12 py-4 bg-gold-600 hover:bg-gold-500 text-white font-medium tracking-wider transition-all duration-300 hover:scale-105 rounded-sm"
                     >
-                        Ring & Boka Tid: 070-757 87 79
+                        Ring & Boka Tid: 070-767 87 79
                     </a>
                 </div>
             </section>

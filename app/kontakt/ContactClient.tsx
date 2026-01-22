@@ -87,10 +87,10 @@ export default function ContactClient() {
                                     <div>
                                         <h3 className="font-serif text-xl text-white group-hover:text-gold-500 transition-colors mb-2">Boka Tid</h3>
                                         <a
-                                            href="tel:0707578779"
+                                            href="tel:0707678779"
                                             className="text-neutral-400 font-light hover:text-gold-500 transition-colors"
                                         >
-                                            070-757 87 79
+                                            070-767 87 79
                                         </a>
                                     </div>
                                 </div>
@@ -164,7 +164,7 @@ export default function ContactClient() {
                                     Ring oss för att boka din tid hos Borås bästa barberare.
                                 </p>
                                 <a
-                                    href="tel:0707578779"
+                                    href="tel:0707678779"
                                     className="block w-full text-center px-6 md:px-8 py-3 md:py-4 bg-gold-600 hover:bg-gold-500 text-white font-medium tracking-widest transition-all duration-300 rounded-sm uppercase text-xs md:text-sm"
                                 >
                                     Ring & Boka Nu

@@ -89,10 +89,10 @@ export default async function BlogPostPage({ params }: Props) {
                     <h3 className="font-serif text-3xl mb-4">Redo för en förändring?</h3>
                     <p className="text-neutral-400 mb-8 font-light">Boka en tid hos våra experter idag.</p>
                     <a
-                        href="tel:0707578779"
+                        href="tel:0707678779"
                         className="block w-full md:inline-block md:w-auto bg-gold-600 text-black px-8 py-3 font-medium tracking-widest hover:bg-white transition-colors duration-300 rounded-sm"
                     >
-                        BOKA TID: 070-757 87 79
+                        BOKA TID: 070-767 87 79
                     </a>
                 </div>
             </article>

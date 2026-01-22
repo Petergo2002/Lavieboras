@@ -32,7 +32,7 @@ export default function Footer() {
                     </div>
                     <p className="text-sm">Västerlånggatan 1</p>
                     <p className="text-sm">503 30 Borås</p>
-                    <p className="text-sm mt-2">070-757 87 79</p>
+                    <p className="text-sm mt-2">070-767 87 79</p>
                 </div>
             </div>
 
