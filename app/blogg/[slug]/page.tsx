@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, blogPosts } from '@/lib/blog-data';
+import { getPostBySlug, getBlogPosts } from '@/lib/blog-data';
 import type { Metadata } from 'next';
 
 interface Props {
@@ -12,6 +12,7 @@ interface Props {
 
 // Generate static paths for all blog posts
 export async function generateStaticParams() {
+    const blogPosts = await getBlogPosts();
     return blogPosts.map((post) => ({
         slug: post.slug,
     }));
@@ -20,7 +21,7 @@ export async function generateStaticParams() {
 // Generate metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
-    const post = getPostBySlug(slug);
+    const post = await getPostBySlug(slug);
 
     if (!post) {
         return {
@@ -42,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPostPage({ params }: Props) {
     const { slug } = await params;
-    const post = getPostBySlug(slug);
+    const post = await getPostBySlug(slug);
 
     if (!post) {
         notFound();
@@ -50,6 +51,12 @@ export default async function BlogPostPage({ params }: Props) {
 
     return (
         <main className="bg-dark-900 min-h-screen text-white selection:bg-gold-500 selection:text-white">
+            {post.schema && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(post.schema) }}
+                />
+            )}
             {/* Hero Image */}
             <div className="relative h-[60vh] w-full">
                 <Image

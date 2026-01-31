@@ -1,0 +1,82 @@
+{
+    "slug": "herrklippning-boras-2026",
+    "title": "Herrklippning Borås: Komplett Guide 2026 – LaVie Barberare",
+    "date": "29 JAN 2026",
+    "excerpt": "Letar du efter den bästa herrklippningen i Borås? Här är din ultimata guide till barberare, frisyrer och vad du ska tänka på inför ditt besök hos LaVie på Västerlånggatan.",
+    "image": "/images/blog/herrklippning-boras-2026/hero.webp",
+    "keywords": ["herrklippning borås", "barberare borås", "herrfrisör borås", "klippa sig borås", "frisör borås centrum", "bästa frisör borås", "fade borås"],
+    "schema": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "headline": "Herrklippning Borås: Komplett Guide 2026 – LaVie Barberare",
+          "description": "Letar du efter den bästa herrklippningen i Borås? Här är din ultimata guide till barberare, frisyrer och vad du ska tänka på inför ditt besök hos LaVie på Västerlånggatan.",
+          "image": "https://www.lavieboras.se/images/blog/herrklippning-boras-2026/hero.webp",
+          "author": {
+            "@type": "LocalBusiness",
+            "name": "LaVie Barberare",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Västerlånggatan 1",
+              "addressLocality": "Borås",
+              "postalCode": "503 30",
+              "addressCountry": "SE"
+            },
+            "telephone": "0707678779",
+            "url": "https://www.lavieboras.se"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "LaVie Barberare Borås",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.lavieboras.se/logo.png"
+            }
+          },
+          "datePublished": "2026-01-29",
+          "dateModified": "2026-01-29",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.lavieboras.se/blogg/herrklippning-boras-2026"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Hur ofta bör man klippa sig?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "För en kort frisyr med fade rekommenderar vi var 3:e till 4:e vecka för att hålla linjerna skarpa. För längre frisyrer kan det gå 6-8 veckor."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Tar ni drop-in?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Vi prioriterar tidsbokningar men har ibland luckor för drop-in. Vi rekommenderar alltid att boka tid."
+              }
+            },
+             {
+              "@type": "Question",
+              "name": "Vad kostar en herrklippning i Borås?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Priserna varierar. På LaVie erbjuder vi premiumklippning från 250 kr som inkluderar konsultation, tvätt och styling."
+              }
+            },
+             {
+              "@type": "Question",
+              "name": "Klipper ni barn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolut, vi välkomnar barn som kan sitta still i stolen och behandlar dem med samma respekt som vuxna."
+              }
+            }
+          ]
+        }
+    ]
+}

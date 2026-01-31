@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { blogPosts } from '@/lib/blog-data';
+import { getBlogPosts } from '@/lib/blog-data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -17,7 +17,8 @@ export const metadata: Metadata = {
     },
 };
 
-export default function BlogPage() {
+export default async function BlogPage() {
+    const blogPosts = await getBlogPosts();
     return (
         <main className="bg-dark-900 min-h-screen text-white pt-24 md:pt-32 pb-20 px-6 selection:bg-gold-500 selection:text-white">
             <div className="container mx-auto">
