@@ -126,8 +126,13 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
         `
 =======
         // Sort by date (newest first)
+        const parseDateMs = (value: string) => {
+            const ms = new Date(value).getTime();
+            return Number.isNaN(ms) ? 0 : ms;
+        };
+
         return validPosts.sort((a, b) => {
-            return new Date(b.date).getTime() - new Date(a.date).getTime();
+            return parseDateMs(b.date) - parseDateMs(a.date);
         });
     } catch (e) {
         console.error("Error loading blog posts:", e);
@@ -148,9 +153,14 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | undefined>
 
         const metadata = JSON.parse(metadataContent);
         return {
-            ...metadata,
+            slug,
+            title: metadata.title ?? slug,
+            date: metadata.date ?? '',
+            excerpt: metadata.excerpt ?? '',
+            image: metadata.image ?? '/IMG_8735.JPG',
+            keywords: metadata.keywords ?? [],
+            schema: metadata.schema,
             content,
-            slug
         };
     } catch (e) {
         // If files don't exist or error parsing, return undefined

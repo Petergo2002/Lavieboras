@@ -26,22 +26,20 @@
 <p>Om du söker en klassisk herrklippning, en skin fade eller skäggvård, är en renodlad barberare ofta det säkraste valet. På LaVie i Borås har vi valt att fokusera till 100% på män, för att kunna erbjuda spetskompetens snarare än bredd. Läs mer om <a href="/om-oss">våra barberare och filosofi</a>.</p>
 
 <h3>Vad du ska titta efter i portföljen</h3>
-<p>När du letar efter en ny barberare i Borås, titta noga på deras sociala medier.
+<p>När du letar efter en ny barberare i Borås, titta noga på deras sociala medier.</p>
 <ul>
 <li>Ser "fadesen" mjuka ut eller ser du linjer? En bra fade ska se ut som en dimma, utan skarpa kanter.</li>
 <li>Är nacklinjerna raka? Symmetri är A och O.</li>
 <li>Visar de bilder på olika hårtyper? En bra barberare ska kunna hantera allt från rakt skandinaviskt hår till lockigt eller afro-hår.</li>
 </ul>
-</p>
 
 <h3>Konsultationen är nyckeln</h3>
-<p>Om din barberare börjar klippa utan att ha pratat med dig i minst 2-3 minuter, spring. Konsultationen är där magin sker. Vi behöver veta:
+<p>Om din barberare börjar klippa utan att ha pratat med dig i minst 2-3 minuter, spring. Konsultationen är där magin sker. Vi behöver veta:</p>
 <ul>
 <li>Hur mycket tid lägger du på styling på morgonen? (Ingen idé att ge dig en pompadour om du bara har 30 sekunder).</li>
 <li>Vad jobbar du med?</li>
 <li>Hur växer ditt hår? (Vi kollar virvlar och växtriktning).</li>
 </ul>
-</p>
 
 <h3>Hygien och miljö</h3>
 <p>Det låter självklarhet, men tyvärr slarvas det. Titta på verktygen. Är de rena? Byter barberaren rakblad inför varje kund? (Det är lagkrav vid knivrakning). Används fräscha handdukar? På LaVie steriliserar vi all utrustning mellan varje kund och använder alltid engångsblad. Din säkerhet går först.</p>
@@ -67,6 +65,10 @@
 
 <h3>6. Textured Quiff</h3>
 <p>Volym i luggen men rufsigt och levande. Det är en mer avslappnad variant av pompadouren. Det passar de flesta ansiktsformer och är lätt att styla om under dagen. Använd ett matt vax eller clay för bästa resultat.</p>
+
+<div class="my-10 rounded-sm border border-gold-500/30 bg-white/5 p-6">
+    <p class="m-0"><strong>Vill du hitta rätt frisyr för just dig?</strong> Boka en konsultation eller herrklippning hos oss på LaVie i Borås. Ring <a href="tel:0707678779">070-767 87 79</a> eller <a href="/kontakt">kontakta oss här</a>. Vill du se priser och behandlingar? Gå till <a href="/tjanster">/tjanster</a>.</p>
+</div>
 
 <h2>Skäggvård: Mer än bara trimning</h2>
 
@@ -124,14 +126,14 @@
 <p>En fade innebär att håret gradvis går från noll (hud) till längre upp mot toppen, oftast runt hela huvudet. En taper är en mindre version av en fade, där man bara tonar ut håret vid polisongerna och i nacken, medan man behåller en linje runt öronen. Taper är mer konservativt, Fade är mer modernt.</p>
 
 <h3>Vilken produkt ska jag använda?</h3>
-<p>Det beror helt på din hårtyp och frisyr.
+<p>Det beror helt på din hårtyp och frisyr.</p>
 <ul>
 <li><strong>Pomada:</strong> För glans och stadga (Slick back, Side part).</li>
 <li><strong>Vax (Matte Paste/Clay):</strong> För textur och matt finish (Crop top, Quiff).</li>
 <li><strong>Saltvattenspray:</strong> För volym och pre-styling.</li>
 <li><strong>Hårgelé:</strong> Används sällan numera då det blir stelt, men kan funka för vissa "wet looks".</li>
 </ul>
-Fråga oss, vi guidar dig rätt.</p>
+<p>Fråga oss, vi guidar dig rätt. Om du vill ha en snabb översikt över produkterna kan du också läsa vår guide: <a href="/blogg/styling-guide-boras">hårvax, pomada eller clay</a>.</p>
 
 <h2>Varför välja LaVie på Västerlånggatan?</h2>
 

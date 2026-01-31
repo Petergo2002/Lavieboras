@@ -1,7 +1,17 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { getBlogPosts } from '@/lib/blog-data';
+import SafeImage from '@/components/ui/SafeImage';
 import type { Metadata } from 'next';
+
+function formatBlogDate(date: string) {
+    const d = new Date(date);
+    if (Number.isNaN(d.getTime())) return date;
+    return new Intl.DateTimeFormat('sv-SE', {
+        year: 'numeric',
+        month: 'short',
+        day: '2-digit',
+    }).format(d);
+}
 
 export const metadata: Metadata = {
     title: "Blogg | Frisörtips & Trender för Män",
@@ -38,10 +48,11 @@ export default async function BlogPage() {
                     {blogPosts.map((post) => (
                         <Link href={`/blogg/${post.slug}`} key={post.slug} className="group flex flex-col cursor-pointer">
                             <div className="relative aspect-[4/3] w-full overflow-hidden mb-6 bg-neutral-900 border border-white/5 group-hover:border-gold-500/30 transition-colors duration-500">
-                                <Image
+                                <SafeImage
                                     src={post.image}
                                     alt={`${post.title} - Frisörtips från Borås`}
                                     fill
+                                    sizes="(min-width: 768px) 33vw, 100vw"
                                     className="object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 animate-slow-zoom"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-dark-900/80 to-transparent opacity-60" />
@@ -49,7 +60,7 @@ export default async function BlogPage() {
 
                             <div className="flex flex-col flex-grow space-y-3">
                                 <div className="flex items-center justify-between text-xs tracking-widest uppercase font-medium">
-                                    <span className="text-gold-500">{post.date}</span>
+                                    <span className="text-gold-500">{formatBlogDate(post.date)}</span>
                                     <span className="text-neutral-600 group-hover:text-neutral-400 transition-colors">Läs mer</span>
                                 </div>
 
