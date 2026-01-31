@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getBlogPosts } from '@/lib/blog-data';
+import { getPostBySlug, getBlogPosts, isValidJsonLdSchema } from '@/lib/blog-data';
 import SafeImage from '@/components/ui/SafeImage';
 import type { Metadata } from 'next';
 
@@ -61,7 +61,7 @@ export default async function BlogPostPage({ params }: Props) {
 
     return (
         <main className="bg-dark-900 min-h-screen text-white selection:bg-gold-500 selection:text-white">
-            {post.schema && (
+            {isValidJsonLdSchema(post.schema) && (
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(post.schema) }}
