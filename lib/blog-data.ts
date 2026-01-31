@@ -92,6 +92,39 @@ export const blogPosts: BlogPost[] = [
 
             <p>Är du redo att uppgradera din rutin? Välkommen till din nya frisör i Borås. Upplev skillnaden på riktigt.</p>
         `
+    },
+    {
+        slug: "styling-guide-boras",
+        title: "Hårvax, Pomada eller Clay? Barberarens Guide till Rätt Stylingprodukt",
+        date: "29 JAN 2026",
+        image: "/blog-styling.png",
+        excerpt: "Får du inte till frisyren hemma? Problemet sitter ofta i burken. Vi guidar dig genom djungeln av vax, pomada och clay för att hitta rätt produkt för just din hårtyp.",
+        keywords: ["hårvax tips", "pomada eller vax", "bästa hårstyling herr", "barberare borås tips", "saltvattenspray herr", "herrfrisyr styling"],
+        content: `
+            <p class="lead">Du har precis varit hos din frisör i Borås. Du känner dig som en miljon kronor. Men dagen efter, när du ska fixa håret själv, ser det inte alls likadant ut. Känner du igen dig? Lugn, det är oftast inte "handhavandefel" – det handlar om att välja rätt verktyg.</p>
+
+            <h3>1. Pomada – För "The Gentleman Look"</h3>
+            <p>Pomada är urfadern till stylingprodukter. Den ger hög glans och stark stadga, perfekt för klassiska frisyrer som Pompadour, Slick Back eller en stilig sidbena.
+            <br><strong>Passar dig som:</strong> Vill ha en "våt" look, har tjockt hår eller vill att frisyren ska ligga perfekt stilla hela dagen.
+            <br><strong>Undvik om:</strong> Du har tunt hår (kan se fett ut) eller vill ha en rufsisk "messy" look.</p>
+
+            <h3>2. Hårvax – Allround-hjälten</h3>
+            <p>När kunder frågar oss på Salong LaVie vad de ska välja, är vax ofta det säkra svaret. Det ger medium stadga och en naturlig glans (varken supermatt eller superblank).
+            <br><strong>Passar dig som:</strong> Har kort till mellanlångt hår och vill kunna forma om frisyren under dagen.
+            <br><strong>Tips:</strong> Värm alltid upp vaxet ordentligt mellan handflatorna innan du applicerar det!</p>
+
+            <h3>3. Clay (Lera) – För Textur och Volym</h3>
+            <p>Detta är vår mest sålda produkt just nu, mycket tack vare trenden med "Textured Crop" som vi skrev om tidigare. Clay är matt, ger grym volym och separerar hårstråna för den där snygga strukturen.
+            <br><strong>Passar dig som:</strong> Har tunt hår (leran får håret att kännas tjockare!) eller vill ha en modern, matt look utan glans.
+            <br><strong>Barberarens val:</strong> Perfekt för "messy" frisyrer som ska se naturliga ut.</p>
+
+            <h3>4. Saltvattenspray – Det hemliga vapnet</h3>
+            <p>Många män missar detta steg! Saltvattenspray är en "pre-styler". Du sprayar det i fuktigt hår <em>innan</em> du fönar det. Resultatet? Volym, strävhet och kontroll.
+            <br><strong>Varför?</strong> Det ger en grundstadga som gör att du behöver mindre vax efteråt. Håret blir enklare att forma och frisyren håller längre. En game-changer för skandinaviskt glatt hår.</p>
+
+            <h3>Hitta rätt hos din barberare i Borås</h3>
+            <p>Det finns ingen "bästa produkt" – bara den produkt som är bäst för <em>dig</em>. Nästa gång du besöker oss på Salong LaVie, fråga oss! Vi visar gärna exakt hur mycket produkt du ska ta och hur du applicerar det för att få salongsresultat hemma varje dag.</p>
+        `
     }
 ];
 
