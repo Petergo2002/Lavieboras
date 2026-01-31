@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next'
-import { blogPosts } from '@/lib/blog-data'
+import { getBlogPosts } from '@/lib/blog-data'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = 'https://lavieboras.se'
+    const blogPosts = await getBlogPosts();
 
     // Static pages
     const staticPages: MetadataRoute.Sitemap = [

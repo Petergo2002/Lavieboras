@@ -1,3 +1,6 @@
+import { promises as fs } from 'fs';
+import path from 'path';
+
 export interface BlogPost {
     slug: string;
     title: string;
@@ -6,31 +9,27 @@ export interface BlogPost {
     content: string; // HTML string
     image: string;
     keywords: string[];
+    schema?: any;
 }
 
-export const blogPosts: BlogPost[] = [
-    {
-        slug: "herrmode-boras-2026",
-        title: "Herrfrisyrer 2026 i Borås: Trendguide från Din Barberare",
-        date: "08 JAN 2026",
-        image: "/blog-trends.png",
-        excerpt: "Från klassiska fades till längre texturerade frisyrer. Här är den ultimata guiden till årets snyggaste herrfrisyrer i Borås från din lokala barberare.",
-        keywords: ["herrfrisör borås", "frisör borås 2026", "fade borås", "barberare borås", "low taper fade", "herrfrisyrer trender", "bästa frisör borås"],
-        content: `
-            <p class="lead">Borås är en stad med en stark modetradition, och 2026 är inget undantag. Som frisör i Borås ser vi en spännande shift från de ultra-strikta stilarna till något mer levande och personligt. Här är trenderna som dominerar stadsbilden just nu.</p>
-            
-            <h3>1. The Textured Crop (Texturerad Lugg)</h3>
-            <p>Detta är årets stora vinnare hos oss på Salong LaVie i Borås. En kort frisyr med mycket textur på toppen och en framåtriktad lugg. Det är den perfekta kombinationen av "business" och "casual". Den kräver minimal styling men ser alltid genomtänkt ut. Be din barberare om en "French Crop" med mycket texturering.</p>
+const postsDirectory = path.join(process.cwd(), 'content/blog');
 
-            <h3>2. Modern Mullet & Wolf Cut</h3>
-            <p>Ja, du läste rätt. Mulleten är tillbaka, men glöm 80-talets extrema varianter. Den moderna versionen är mjukare, sofistikerad och ofta kombinerad med en snygg <strong class="text-gold-500">Burst Fade</strong> runt öronen. Det handlar om att behålla längd i nacken för att skapa en siluett som sticker ut. En favorit bland våra kunder på Västerlånggatan.</p>
+export async function getBlogPosts(): Promise<BlogPost[]> {
+    try {
+        // Check if directory exists
+        try {
+            await fs.access(postsDirectory);
+        } catch {
+            return [];
+        }
 
-            <h3>3. Low Taper Fade</h3>
-            <p>Om du vill ha en ren look men ändå behålla längd och volym, är en Low Taper Fade det självklara valet. Till skillnad från en hög skin-fade som exponerar mycket hud, ger en låg taper en mjukare övergång vid polisonger och nacke. Det är elegant, tidlöst och ser fantastiskt ut när det växer ut. En klassiker som vi utför dagligen som herrfrisör i Borås.</p>
+        const slugs = await fs.readdir(postsDirectory);
+        const posts = await Promise.all(slugs.map(slug => getPostBySlug(slug)));
 
-            <h3>4. Buzz Cut med karaktär</h3>
-            <p>För den som vill ha det ultimat lättskötta. Men 2026 handlar Buzz Cut inte bara om att raka av allt. Vi ser varianter med linjer, färgade inslag eller geometriska former i nacken. Det är ett statement.</p>
+        // Filter out undefineds
+        const validPosts = posts.filter((p): p is BlogPost => p !== undefined);
 
+<<<<<<< HEAD
             <blockquote>"En bra frisyr handlar inte om att blint följa en trend, utan om att hitta den version av trenden som förstärker dina bästa drag." - Salong LaVie, Borås</blockquote>
 
             <p>Oavsett om du vill göra en total förändring eller bara finjustera din nuvarande look, har vi expertisen som din frisör i Borås. På Salong LaVie stannar vi aldrig i utvecklingen – vi utbildar oss ständigt för att kunna leverera det senaste inom herrmode direkt till dig i stolen.</p>
@@ -125,9 +124,37 @@ export const blogPosts: BlogPost[] = [
             <h3>Hitta rätt hos din barberare i Borås</h3>
             <p>Det finns ingen "bästa produkt" – bara den produkt som är bäst för <em>dig</em>. Nästa gång du besöker oss på Salong LaVie, fråga oss! Vi visar gärna exakt hur mycket produkt du ska ta och hur du applicerar det för att få salongsresultat hemma varje dag.</p>
         `
+=======
+        // Sort by date (newest first)
+        return validPosts.sort((a, b) => {
+            return new Date(b.date).getTime() - new Date(a.date).getTime();
+        });
+    } catch (e) {
+        console.error("Error loading blog posts:", e);
+        return [];
     }
-];
+}
 
-export function getPostBySlug(slug: string): BlogPost | undefined {
-    return blogPosts.find(post => post.slug === slug);
+export async function getPostBySlug(slug: string): Promise<BlogPost | undefined> {
+    const postDir = path.join(postsDirectory, slug);
+    const metadataPath = path.join(postDir, 'metadata.json');
+    const contentPath = path.join(postDir, 'index.md');
+
+    try {
+        const [metadataContent, content] = await Promise.all([
+            fs.readFile(metadataPath, 'utf8'),
+            fs.readFile(contentPath, 'utf8')
+        ]);
+
+        const metadata = JSON.parse(metadataContent);
+        return {
+            ...metadata,
+            content,
+            slug
+        };
+    } catch (e) {
+        // If files don't exist or error parsing, return undefined
+        return undefined;
+>>>>>>> 9282705 (feat: add article 'Herrklippning Borås: Komplett Guide 2026' and refactor blog engine to file-based system)
+    }
 }
