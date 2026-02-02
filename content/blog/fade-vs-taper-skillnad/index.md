@@ -93,6 +93,8 @@ Vi börjar ofta med att ta ner längden på toppen och skapa formen med sax. Fö
 ### Steg 3: Detaljarbetet med maskin
 Här kommer magin. För en fade byter vi guards (distanskammar) och justerar bladet millimetervis för att skapa den perfekta skuggan. Det är här skillnaden mellan en billig snabbklippning och en premiumklippning på LaVie syns. Vi spenderar tid på att "sudda" ut linjerna.
 
+![Barberare arbetar med detaljer på LaVie](/images/blog/fade-vs-taper-skillnad/detail.png)
+
 ### Steg 4: Linjerna (Shape-up)
 Oavsett om det är fade eller taper, är linjerna avgörande. Vi använder trimmer och ofta kniv för att göra kanterna i pannan och vid tinningarna knivskarpa. Det ger frisyren dess karaktär.
 
