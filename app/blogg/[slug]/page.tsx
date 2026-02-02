@@ -80,7 +80,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/60 to-transparent" />
 
                 <div className="absolute bottom-0 left-0 w-full p-6 pb-12">
-                    <div className="container mx-auto max-w-5xl">
+                    <div className="container mx-auto max-w-7xl">
                         <Link href="/blogg" className="inline-flex items-center text-gold-500 text-xs tracking-widest uppercase mb-6 hover:text-white transition-colors">
                             ← Tillbaka till Journalen
                         </Link>
@@ -95,9 +95,9 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
 
             {/* Content */}
-            <article className="container mx-auto max-w-5xl px-6 py-20">
+            <article className="container mx-auto max-w-7xl px-6 py-20">
                 <div
-                    className="prose prose-invert prose-lg prose-headings:font-serif prose-headings:text-gold-500 prose-p:font-light prose-p:text-neutral-300 prose-blockquote:border-gold-500 prose-blockquote:bg-white/5 prose-blockquote:p-4 prose-blockquote:not-italic prose-blockquote:text-white prose-a:text-gold-500 hover:prose-a:text-gold-400"
+                    className="prose prose-invert prose-lg max-w-none prose-headings:font-serif prose-headings:text-gold-500 prose-p:font-light prose-p:text-neutral-300 prose-blockquote:border-gold-500 prose-blockquote:bg-white/5 prose-blockquote:p-4 prose-blockquote:not-italic prose-blockquote:text-white prose-a:text-gold-500 hover:prose-a:text-gold-400 prose-img:rounded-sm prose-img:w-full prose-img:shadow-lg"
                     dangerouslySetInnerHTML={{ __html: post.content }}
                 />
 
