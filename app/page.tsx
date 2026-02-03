@@ -7,9 +7,12 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Frisör & Barberare i Borås | Salong LaVie",
-    description: "Salong LaVie är Borås ledande frisörsalong och barberare. Professionell herrklippning, skäggvård och styling i centrala Borås. Boka tid: 070-767 87 79",
-    keywords: ["frisör borås", "barberare borås", "salong lavie", "herrfrisör borås", "klippning borås"],
+    title: {
+        default: "Salong LaVie | Din Barberare i Borås (Boka Online)",
+        template: "%s | Salong LaVie Borås"
+    },
+    description: "Mer än bara en klippning. Upplev Borås mest detaljerade herrklippning & skäggvård. Inkluderar alltid tvätt & styling. Se lediga tider:",
+    keywords: ["frisör borås", "barberare borås", "salong lavie", "herrfrisör borås", "klippning borås", "skäggtrimning borås"],
     alternates: {
         canonical: 'https://lavieboras.se',
     },

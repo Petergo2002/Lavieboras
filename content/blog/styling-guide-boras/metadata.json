@@ -1,9 +1,9 @@
 {
     "slug": "styling-guide-boras",
-    "title": "Hårvax, Pomada eller Clay? Barberarens Guide till Rätt Stylingprodukt",
+    "title": "Därför håller inte din frisyr (Och produkten du saknar)",
     "date": "2026-01-29",
     "image": "/images/blog/styling-guide-boras/hero.png",
-    "excerpt": "Får du inte till frisyren hemma? Problemet sitter ofta i burken. Vi guidar dig genom djungeln av vax, pomada och clay för att hitta rätt produkt för just din hårtyp.",
+    "excerpt": "Ser håret bra ut hos frisören men platt dagen efter? Du använder troligen fel produkt. Vi listar exakt vad du behöver för din hårtyp.",
     "keywords": [
         "hårvax tips",
         "pomada eller vax",
@@ -11,5 +11,73 @@
         "barberare borås tips",
         "saltvattenspray herr",
         "herrfrisyr styling"
+    ],
+    "schema": [
+        {
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "Därför håller inte din frisyr (Och produkten du saknar)",
+            "description": "Ser håret bra ut hos frisören men platt dagen efter? Du använder troligen fel produkt. Vi listar exakt vad du behöver för din hårtyp.",
+            "image": "https://www.lavieboras.se/images/blog/styling-guide-boras/hero.png",
+            "author": {
+                "@type": "LocalBusiness",
+                "name": "LaVie Barberare",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Västerlånggatan 1",
+                    "addressLocality": "Borås",
+                    "postalCode": "503 30",
+                    "addressCountry": "SE"
+                }
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "LaVie Barberare Borås",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.lavieboras.se/logo.png"
+                }
+            },
+            "datePublished": "2026-01-29",
+            "dateModified": "2026-01-29"
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Ska jag välja hårvax, pomada eller clay?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Det beror helt på vilken frisyr du vill ha. För glans och kontroll (klassisk look) är pomada bäst. För en naturlig look är hårvax/paste det säkra valet. För en matt, texturerad och modern look är clay (lera) överlägset, särskilt om du har tunt hår som behöver volym."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Varför ser mitt hår fett ut när jag använder vax?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Oftast beror det på att du antingen tar för mycket produkt eller att du använder en produkt med för mycket glans i tunt hår. Ett vanligt fel är också att man inte värmer upp vaxet ordentligt mellan händerna innan applicering. Prova en matt clay och ta bara hälften så mycket som du tror behövs."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Hur får jag frisyren att hålla hela dagen?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Hemligheten är 'pre-styling'. Använd saltvattenspray i fuktigt hår och föna det torrt innan du lägger i ditt vax. Detta skapar en grundvolym och strävhet som gör att frisyren inte faller ihop efter lunch."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Vad är saltvattenspray bra för?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Saltvattenspray ger håret struktur och volym, precis som efter ett dopp i havet. Det är den perfekta grundprodukten för att få tunt, glatt hår att kännas tjockare och lättare att forma."
+                    }
+                }
+            ]
+        }
     ]
 }
