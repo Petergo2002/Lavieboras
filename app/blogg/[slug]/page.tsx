@@ -43,6 +43,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: `${post.title} | Lavie Borås`,
         description: post.excerpt,
         keywords: post.keywords,
+        alternates: {
+            canonical: `https://lavieboras.se/blogg/${slug}`,
+        },
         openGraph: {
             title: post.title,
             description: post.excerpt,
