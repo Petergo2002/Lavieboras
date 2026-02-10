@@ -64,9 +64,6 @@ export const metadata: Metadata = {
         description: 'Borås bästa frisörsalong och barberare. Boka tid: 070-767 87 79',
         images: ['/IMG_8735.JPG'],
     },
-    alternates: {
-        canonical: 'https://lavieboras.se',
-    },
     category: 'Frisör',
     icons: {
         icon: '/favicon.jpg',
