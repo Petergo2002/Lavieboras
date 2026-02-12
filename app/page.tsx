@@ -1,3 +1,5 @@
+import { getBlogPosts } from "@/lib/blog-data";
+import SafeImage from "@/components/ui/SafeImage";
 import Hero from "@/components/sections/Hero";
 import ScrollLogo from "@/components/ui/ScrollLogo";
 import IntroCover from "@/components/ui/IntroCover";
@@ -6,19 +8,10 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-    title: {
-        default: "Salong LaVie | Din Barberare i Borås (Boka Online)",
-        template: "%s | Salong LaVie Borås"
-    },
-    description: "Mer än bara en klippning. Upplev Borås mest detaljerade herrklippning & skäggvård. Inkluderar alltid tvätt & styling. Se lediga tider:",
-    keywords: ["frisör borås", "barberare borås", "salong lavie", "herrfrisör borås", "klippning borås", "skäggtrimning borås"],
-    alternates: {
-        canonical: 'https://lavieboras.se',
-    },
-};
+export default async function Home() {
+    const blogPosts = await getBlogPosts();
+    const latestPosts = blogPosts.slice(0, 3);
 
-export default function Home() {
     return (
         <main className="min-h-screen bg-dark-900 selection:bg-gold-500 selection:text-white">
             <ScrollLogo />
@@ -56,6 +49,26 @@ export default function Home() {
                         />
                         <div className="absolute -bottom-8 -left-8 w-48 h-48 border border-gold-500/30 hidden md:block" />
                         <div className="absolute -top-8 -right-8 w-48 h-48 border border-white/10 hidden md:block" />
+                    </div>
+                </div>
+            </section>
+
+            {/* SEO Content Block - "Om Salong LaVie" */}
+            <section className="py-20 bg-neutral-900/50 px-6 border-y border-white/5">
+                <div className="container mx-auto max-w-4xl text-center space-y-8">
+                    <span className="text-gold-500 tracking-widest text-xs font-medium uppercase">
+                        Om Salong LaVie
+                    </span>
+                    <h2 className="font-serif text-3xl md:text-4xl text-white">
+                        Mer än bara en klippning – en upplevelse
+                    </h2>
+                    <div className="text-neutral-400 font-light leading-relaxed space-y-6 text-lg">
+                        <p>
+                            Välkommen till Salong LaVie, din självklara <strong>herrfrisör i Borås</strong>. Belägna på <span className="text-gold-400">Västerlånggatan</span> erbjuder vi en modern tolkning av den klassiska <strong>barberare</strong>-upplevelsen.
+                        </p>
+                        <p>
+                            Oavsett om du söker en skarp <strong>fade</strong>, en traditionell <strong>rakning med kniv</strong>, eller en klassisk <strong>herrklippning</strong>, står vårt team redo med precision och hantverksskicklighet. Vi är inte bara en frisörsalong, vi är en destination för den moderna mannen som ställer krav på sin look.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -114,6 +127,49 @@ export default function Home() {
                         <Link href="/tjanster" className="px-10 py-4 bg-gold-600 text-white hover:bg-gold-500 transition-colors tracking-widest text-sm uppercase rounded-sm">
                             Se Alla Tjänster & Priser
                         </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* Latest Journal Section - NEW */}
+            <section className="py-32 bg-dark-900 border-t border-white/5 px-6">
+                <div className="container mx-auto">
+                    <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+                        <div>
+                            <span className="text-gold-500 tracking-widest text-xs font-medium uppercase mb-4 block">
+                                Journalen
+                            </span>
+                            <h2 className="font-serif text-4xl md:text-5xl text-white">
+                                Tips & Trender
+                            </h2>
+                        </div>
+                        <Link href="/blogg" className="text-neutral-400 hover:text-white transition-colors text-sm tracking-widest uppercase border-b border-neutral-800 pb-1 hover:border-white">
+                            Läs alla artiklar
+                        </Link>
+                    </div>
+
+                    <div className="grid md:grid-cols-3 gap-8">
+                        {latestPosts.map((post) => (
+                            <Link href={`/blogg/${post.slug}`} key={post.slug} className="group block">
+                                <div className="relative aspect-[16/10] w-full overflow-hidden mb-6 bg-neutral-900">
+                                    <SafeImage
+                                        src={post.image}
+                                        alt={post.title}
+                                        fill
+                                        className="object-cover group-hover:scale-105 transition-transform duration-700 opacity-80 group-hover:opacity-100"
+                                    />
+                                </div>
+                                <span className="text-gold-500 text-xs tracking-widest uppercase mb-2 block">
+                                    {post.date}
+                                </span>
+                                <h3 className="font-serif text-2xl text-white mb-3 group-hover:text-gold-500 transition-colors leading-tight">
+                                    {post.title}
+                                </h3>
+                                <p className="text-neutral-400 font-light text-sm line-clamp-2">
+                                    {post.excerpt}
+                                </p>
+                            </Link>
+                        ))}
                     </div>
                 </div>
             </section>

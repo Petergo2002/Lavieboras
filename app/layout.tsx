@@ -12,21 +12,19 @@ const pinyon = Pinyon_Script({ weight: "400", subsets: ["latin"], variable: "--f
 export const metadata: Metadata = {
     metadataBase: new URL('https://lavieboras.se'),
     title: {
-        default: "Salong LaVie | Frisör & Barberare i Borås",
+        default: "Salong LaVie | Herrfrisör & Barberare i Borås",
         template: "%s | Salong LaVie Borås"
     },
-    description: "Salong LaVie är Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling i centrala Borås. Boka din tid idag!",
+    description: "Salong LaVie är Borås mest exklusiva herrfrisör och barberare. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerlånggatan. Boka din tid online!",
     keywords: [
-        "frisör borås",
-        "barberare borås",
-        "salong lavie",
-        "lavie borås",
         "herrfrisör borås",
+        "barberare borås",
         "frisörsalong borås",
+        "salong lavie",
         "klippning borås",
-        "skäggvård borås",
-        "bästa frisör borås",
-        "herrklippning borås"
+        "skäggtrimning borås",
+        "rakning med kniv borås",
+        "frisör västerlånggatan"
     ],
     authors: [{ name: "Salong LaVie" }],
     creator: "Salong LaVie",

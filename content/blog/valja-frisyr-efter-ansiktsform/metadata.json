@@ -1,0 +1,32 @@
+{
+    "slug": "valja-frisyr-efter-ansiktsform",
+    "title": "Så väljer du rätt frisyr för din ansiktsform – Guiden från LaVie",
+    "date": "2026-02-12",
+    "excerpt": "Har du undrat varför vissa frisyrer ser bättre ut på andra? Allt handlar om ansiktsformen. Lär dig identifiera din form och hitta din perfekta frisyr i vår kompletta guide.",
+    "image": "/images/blog/valja-frisyr-efter-ansiktsform/hero.png",
+    "keywords": [
+        "frisyr efter ansiktsform herr",
+        "ansiktsform man",
+        "herrklippning borås",
+        "frisör borås",
+        "frisyr runt ansikte herr",
+        "frisyr avlångt ansikte herr"
+    ],
+    "schema": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Så väljer du rätt frisyr för din ansiktsform – Guiden från LaVie",
+        "description": "Har du undrat varför vissa frisyrer ser bättre ut på andra? Allt handlar om ansiktsformen. Lär dig identifiera din form och hitta din perfekta frisyr i vår kompletta guide.",
+        "image": "https://www.lavieboras.se/images/blog/valja-frisyr-efter-ansiktsform/hero.png",
+        "author": {
+            "@type": "LocalBusiness",
+            "name": "LaVie Barberare",
+            "url": "https://www.lavieboras.se"
+        },
+        "datePublished": "2026-02-12",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://www.lavieboras.se/blogg/valja-frisyr-efter-ansiktsform"
+        }
+    }
+}
