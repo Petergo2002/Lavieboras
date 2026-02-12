@@ -70,9 +70,7 @@ export default function Hero() {
                         </motion.p>
 
                         <motion.a
-                            href="https://www.bokadirekt.se/places/salong-lavie-57399"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href="tel:0707678779"
                             initial={{ scale: 0, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
                             whileHover={{ scale: 1.05 }}
@@ -82,7 +80,7 @@ export default function Hero() {
                         >
                             <div className="absolute inset-0 rounded-full border border-white/10 scale-125 opacity-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-700" />
                             <span className="relative z-10 text-white font-sans font-medium text-xs tracking-widest uppercase group-hover:text-dark-900 transition-colors">
-                                Boka<br />Tid
+                                Ring<br />Oss
                             </span>
                         </motion.a>
                     </div>
