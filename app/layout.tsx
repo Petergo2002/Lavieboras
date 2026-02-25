@@ -10,7 +10,9 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 const pinyon = Pinyon_Script({ weight: "400", subsets: ["latin"], variable: "--font-pinyon-script" });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://lavieboras.se'),
+    // Canonical base URL — all relative paths in metadata resolve against this.
+    // MUST match the domain Google sees, which is www.lavieboras.se.
+    metadataBase: new URL('https://www.lavieboras.se'),
     title: {
         default: "Salong LaVie | Herrfrisör & Barberare i Borås",
         template: "%s | Salong LaVie Borås"
@@ -29,6 +31,10 @@ export const metadata: Metadata = {
     authors: [{ name: "Salong LaVie" }],
     creator: "Salong LaVie",
     publisher: "Salong LaVie",
+    // Root canonical — inherited by all pages unless they override it.
+    alternates: {
+        canonical: 'https://www.lavieboras.se',
+    },
     robots: {
         index: true,
         follow: true,
@@ -43,7 +49,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         locale: 'sv_SE',
-        url: 'https://lavieboras.se',
+        url: 'https://www.lavieboras.se',
         siteName: 'Salong LaVie',
         title: 'Salong LaVie | Frisör & Barberare i Borås',
         description: 'Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling. Boka tid: 070-767 87 79',
@@ -77,7 +83,7 @@ const jsonLd = {
     name: 'Salong LaVie',
     alternateName: 'LaVie Borås',
     description: 'Premium frisörsalong och barberare i centrala Borås. Specialister på herrklippning, skäggvård och styling.',
-    url: 'https://lavieboras.se',
+    url: 'https://www.lavieboras.se',
     telephone: '+46707678779',
     email: 'info@lavieboras.se',
     address: {
@@ -108,7 +114,7 @@ const jsonLd = {
         }
     ],
     priceRange: '$$',
-    image: 'https://lavieboras.se/IMG_8735.JPG',
+    image: 'https://www.lavieboras.se/IMG_8735.JPG',
     sameAs: [
         'https://instagram.com/lavieboras',
         'https://www.facebook.com/SalongLaVieBoras/'

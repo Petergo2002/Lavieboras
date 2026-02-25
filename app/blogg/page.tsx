@@ -18,12 +18,12 @@ export const metadata: Metadata = {
     description: "Läs våra expertartiklar om herrfrisyrer, skäggvård och groomingtrender i Borås. Tips från professionella barberare på Salong LaVie.",
     keywords: ["frisör tips borås", "herrfrisyrer 2024", "skäggvård tips", "barberare blogg", "grooming borås"],
     alternates: {
-        canonical: 'https://lavieboras.se/blogg',
+        canonical: 'https://www.lavieboras.se/blogg',
     },
     openGraph: {
         title: "Blogg | Salong LaVie Borås",
         description: "Experttips om herrfrisyrer och skäggvård från Borås bästa barberare.",
-        url: 'https://lavieboras.se/blogg',
+        url: 'https://www.lavieboras.se/blogg',
     },
 };
 

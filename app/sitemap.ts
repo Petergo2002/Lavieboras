@@ -8,7 +8,7 @@ import { getBlogPosts } from '@/lib/blog-data'
  * signaling false content changes to search engines.
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const baseUrl = 'https://lavieboras.se'
+    const baseUrl = 'https://www.lavieboras.se'
     const blogPosts = await getBlogPosts();
 
     // Static pages with stable lastModified dates

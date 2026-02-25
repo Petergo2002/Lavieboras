@@ -13,6 +13,6 @@ export default function robots(): MetadataRoute.Robots {
                 allow: '/',
             },
         ],
-        sitemap: 'https://lavieboras.se/sitemap.xml',
+        sitemap: 'https://www.lavieboras.se/sitemap.xml',
     };
 }

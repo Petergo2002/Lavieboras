@@ -4,10 +4,24 @@ const nextConfig: NextConfig = {
     /**
      * Enforce URLs without trailing slashes to prevent duplicate pages.
      * e.g., /tjanster is canonical, /tjanster/ redirects to /tjanster.
-     * This fixes Google Search Console "Alternate page with proper canonical tag"
-     * and "Page with redirect" issues.
      */
     trailingSlash: false,
+
+    /**
+     * Permanent redirect from non-www to www.
+     * This ensures Google only ever sees one version of the site (www.lavieboras.se),
+     * which is critical for canonical tag consistency and preventing duplicate content issues.
+     */
+    async redirects() {
+        return [
+            {
+                source: '/:path*',
+                has: [{ type: 'host', value: 'lavieboras.se' }],
+                destination: 'https://www.lavieboras.se/:path*',
+                permanent: true, // 308 — tells Google this is a permanent move
+            },
+        ];
+    },
 
     /** Image optimization configuration */
     images: {
