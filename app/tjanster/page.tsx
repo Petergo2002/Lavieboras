@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import Image from "next/image";
 import type { Metadata } from "next";
 import ServicesClient from "./ServicesClient";

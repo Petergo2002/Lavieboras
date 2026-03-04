@@ -1,5 +1,12 @@
 import { promises as fs } from 'fs';
 import path from 'path';
+import { marked } from 'marked';
+
+// Configure marked renderer for clean, semantic HTML
+marked.setOptions({
+    gfm: true,       // GitHub Flavored Markdown (tables, strikethrough, etc.)
+    breaks: false,   // Require double newline for paragraph breaks
+});
 
 export interface BlogPost {
     slug: string;
@@ -31,7 +38,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
         }
 
         const entries = await fs.readdir(postsDirectory);
-        
+
         // Filter to only include directories and valid slugs
         const slugs = await Promise.all(
             entries.map(async (entry) => {
@@ -44,7 +51,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
                 }
             })
         );
-        
+
         const validSlugs = slugs.filter((slug): slug is string => slug !== null);
         const posts = await Promise.all(validSlugs.map(slug => getPostBySlug(slug)));
 
@@ -72,7 +79,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | undefined>
         console.warn(`Invalid slug provided: ${slug}`);
         return undefined;
     }
-    
+
     const postDir = path.join(postsDirectory, slug);
     const metadataPath = path.join(postDir, 'metadata.json');
     const contentPath = path.join(postDir, 'index.md');
@@ -83,20 +90,23 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | undefined>
             fs.access(metadataPath),
             fs.access(contentPath)
         ]);
-        
+
         const [metadataContent, content] = await Promise.all([
             fs.readFile(metadataPath, 'utf8'),
             fs.readFile(contentPath, 'utf8')
         ]);
 
         const metadata = JSON.parse(metadataContent);
-        
+
         // Validate date format
         const date = metadata.date ?? '';
         if (date && !isValidDate(date)) {
             console.warn(`Invalid date format for post ${slug}: ${date}`);
         }
-        
+
+        // Convert markdown to HTML so the blog page can render it properly
+        const htmlContent = await marked(content);
+
         return {
             slug,
             title: metadata.title ?? slug,
@@ -105,7 +115,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | undefined>
             image: metadata.image ?? '/images/placeholder-blog.jpg', // Better fallback
             keywords: metadata.keywords ?? [],
             schema: metadata.schema,
-            content,
+            content: htmlContent,
         };
     } catch (e) {
         // Log specific errors for debugging

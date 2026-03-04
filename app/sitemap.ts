@@ -32,8 +32,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             priority: 0.8,
         },
         {
+            url: `${baseUrl}/frisor-boras`,
+            lastModified: new Date('2026-03-04'),
+            changeFrequency: 'monthly',
+            priority: 0.9,
+        },
+        {
             url: `${baseUrl}/blogg`,
-            lastModified: new Date('2026-02-10'),
+            lastModified: new Date('2026-03-04'),
             changeFrequency: 'weekly',
             priority: 0.7,
         },

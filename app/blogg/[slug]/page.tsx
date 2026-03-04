@@ -98,9 +98,40 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
 
             {/* Content */}
-            <article className="container mx-auto max-w-7xl px-6 py-20">
+            <article className="container mx-auto max-w-3xl px-6 py-20">
                 <div
-                    className="prose prose-invert prose-lg max-w-none prose-headings:font-serif prose-headings:text-gold-500 prose-p:font-light prose-p:text-neutral-300 prose-blockquote:border-gold-500 prose-blockquote:bg-white/5 prose-blockquote:p-4 prose-blockquote:not-italic prose-blockquote:text-white prose-a:text-gold-500 hover:prose-a:text-gold-400 prose-img:rounded-sm prose-img:w-full prose-img:shadow-lg"
+                    className={[
+                        "prose prose-invert prose-lg max-w-none",
+                        // Headings — serif gold
+                        "prose-headings:font-serif prose-headings:text-white prose-headings:leading-tight",
+                        "prose-h1:text-5xl prose-h1:mb-8 prose-h1:text-white",
+                        "prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:text-gold-400 prose-h2:border-b prose-h2:border-white/10 prose-h2:pb-4",
+                        "prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4 prose-h3:text-gold-300",
+                        // Paragraphs
+                        "prose-p:font-light prose-p:text-neutral-300 prose-p:leading-[1.9] prose-p:mb-6",
+                        // Strong / emphasis
+                        "prose-strong:text-white prose-strong:font-semibold",
+                        "prose-em:text-gold-300 prose-em:not-italic",
+                        // Links
+                        "prose-a:text-gold-400 prose-a:no-underline hover:prose-a:text-gold-300 prose-a:border-b prose-a:border-gold-500/40 hover:prose-a:border-gold-400 prose-a:transition-colors",
+                        // Lists
+                        "prose-ul:text-neutral-300 prose-ul:font-light prose-ul:space-y-2",
+                        "prose-ol:text-neutral-300 prose-ol:font-light prose-ol:space-y-2",
+                        "prose-li:marker:text-gold-500",
+                        // Blockquote
+                        "prose-blockquote:border-l-2 prose-blockquote:border-gold-500 prose-blockquote:bg-white/5 prose-blockquote:px-6 prose-blockquote:py-4 prose-blockquote:rounded-r-sm prose-blockquote:text-neutral-300 prose-blockquote:not-italic",
+                        // Tables
+                        "prose-table:text-sm prose-table:border-collapse",
+                        "prose-thead:border-b prose-thead:border-white/20",
+                        "prose-th:text-gold-400 prose-th:font-medium prose-th:tracking-widest prose-th:uppercase prose-th:text-xs prose-th:pb-3 prose-th:pr-6",
+                        "prose-td:text-neutral-300 prose-td:font-light prose-td:py-3 prose-td:pr-6 prose-td:border-b prose-td:border-white/5",
+                        // HR divider
+                        "prose-hr:border-white/10 prose-hr:my-12",
+                        // Images
+                        "prose-img:rounded-sm prose-img:w-full prose-img:shadow-2xl prose-img:my-10",
+                        // Code
+                        "prose-code:text-gold-300 prose-code:bg-white/5 prose-code:px-2 prose-code:py-0.5 prose-code:rounded prose-code:text-sm",
+                    ].join(" ")}
                     dangerouslySetInnerHTML={{ __html: post.content }}
                 />
 

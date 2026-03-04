@@ -14,19 +14,23 @@ export const metadata: Metadata = {
     // MUST match the domain Google sees, which is www.lavieboras.se.
     metadataBase: new URL('https://www.lavieboras.se'),
     title: {
-        default: "Salong LaVie | Herrfrisör & Barberare i Borås",
-        template: "%s | Salong LaVie Borås"
+        default: "Salong LaVie | Frisör i Borås – Herrklippning & Barberare",
+        template: "%s | Salong LaVie – Frisör Borås"
     },
-    description: "Salong LaVie är Borås mest exklusiva herrfrisör och barberare. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerlånggatan. Boka din tid online!",
+    description: "Salong LaVie – din frisör i Borås centrum. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerlånggatan. Boka din tid hos Borås bästa barberare idag!",
     keywords: [
+        "frisör borås",
+        "frisör i borås",
         "herrfrisör borås",
         "barberare borås",
         "frisörsalong borås",
+        "bästa frisör borås",
+        "frisör borås centrum",
         "salong lavie",
         "klippning borås",
         "skäggtrimning borås",
         "rakning med kniv borås",
-        "frisör västerlånggatan"
+        "frisör västerlånggatan borås"
     ],
     authors: [{ name: "Salong LaVie" }],
     creator: "Salong LaVie",
@@ -51,8 +55,8 @@ export const metadata: Metadata = {
         locale: 'sv_SE',
         url: 'https://www.lavieboras.se',
         siteName: 'Salong LaVie',
-        title: 'Salong LaVie | Frisör & Barberare i Borås',
-        description: 'Borås bästa frisörsalong och barberare. Professionell herrklippning, skäggvård och styling. Boka tid: 070-767 87 79',
+        title: 'Salong LaVie | Frisör i Borås – Herrklippning & Barberare',
+        description: 'Salong LaVie – bästa frisören i Borås. Professionell herrklippning, skäggvård och styling på Västerlånggatan. Boka tid: 070-767 87 79',
         images: [
             {
                 url: '/IMG_8735.JPG',
@@ -64,8 +68,8 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: 'summary_large_image',
-        title: 'Salong LaVie | Frisör & Barberare i Borås',
-        description: 'Borås bästa frisörsalong och barberare. Boka tid: 070-767 87 79',
+        title: 'Salong LaVie | Frisör i Borås – Herrklippning & Barberare',
+        description: 'Salong LaVie – bästa frisören i Borås centrum. Boka tid: 070-767 87 79',
         images: ['/IMG_8735.JPG'],
     },
     category: 'Frisör',
