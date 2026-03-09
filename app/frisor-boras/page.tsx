@@ -9,9 +9,9 @@ import Link from "next/link";
  */
 
 export const metadata: Metadata = {
-    title: "Frisör i Borås | Salong LaVie – Boka Herrklippning",
+    title: "Frisör i Borås Centrum | Herrklippning, Fade & Skägg | LaVie",
     description:
-        "Letar du efter en frisör i Borås? Salong LaVie på Västerlånggatan erbjuder professionell herrklippning, skäggvård och rakning. Boka din tid idag – från 250 kr!",
+        "Söker du en frisör i Borås? LaVie på Västerlånggatan erbjuder herrklippning, fade och skäggvård från 250 kr. Boka tid hos frisör i Borås centrum.",
     keywords: [
         "frisör borås",
         "frisör i borås",
@@ -102,6 +102,15 @@ const reasons = [
     },
 ];
 
+const localAreas = [
+    "Borås centrum",
+    "Norrby",
+    "Sjöbo",
+    "Trandared",
+    "Knalleland",
+    "Göta",
+];
+
 const reviews = [
     {
         name: "Mikael P.",
@@ -141,6 +150,10 @@ const faqs = [
         q: "Kan ni fixa fades och avancerade klippningar?",
         a: "Absolut. Skin fade, high fade, taper, undercut, scissors only – vi kör hela registret med precision.",
     },
+    {
+        q: "Har ni kunder från områden utanför centrum?",
+        a: "Ja. Många kommer till oss från Norrby, Sjöbo, Trandared, Göta och Knalleland för herrklippning, fade och skäggvård i Borås.",
+    },
 ];
 
 /** FAQPage + LocalBusiness structured data for Google rich results */
@@ -170,6 +183,10 @@ const pageJsonLd = {
                 addressCountry: "SE",
             },
             priceRange: "250–500 SEK",
+            areaServed: localAreas.map((area) => ({
+                "@type": "Place",
+                name: area,
+            })),
         },
     ],
 };
@@ -221,7 +238,7 @@ export default function FrisorBorasPage() {
                         <p className="text-xl md:text-2xl text-neutral-300 font-light max-w-xl leading-relaxed mb-12">
                             Inte snabb. Inte billig. Riktigt bra.
                             <br />
-                            <span className="text-neutral-500">Klippning som faktiskt sitter — varje gång.</span>
+                            <span className="text-neutral-500">Klippning som faktiskt sitter, för dig som söker en frisör i Borås som levererar varje gång.</span>
                         </p>
 
                         {/* CTAs */}
@@ -247,6 +264,7 @@ export default function FrisorBorasPage() {
                                 { value: "5.0", label: "Google-betyg" },
                                 { value: "250 kr", label: "Från" },
                                 { value: "Västerlånggatan 1", label: "Borås centrum" },
+                                { value: "Fade & herrklippning", label: "Specialitet" },
                             ].map((stat) => (
                                 <div key={stat.label}>
                                     <p className="text-white font-serif text-2xl">{stat.value}</p>
@@ -467,6 +485,14 @@ export default function FrisorBorasPage() {
                                     Det är vad som skiljer en riktigt <strong className="text-white font-normal">bra frisör i Borås</strong> från resten. Och det är vad vi strävar efter varje dag på LaVie.
                                 </p>
 
+                                <p>
+                                    Vi har också många återkommande kunder från områden som <strong className="text-white font-normal">Norrby</strong>, <strong className="text-white font-normal">Sjöbo</strong>, <strong className="text-white font-normal">Trandared</strong> och <strong className="text-white font-normal">Knalleland</strong>. För många är målet enkelt: hitta en <strong className="text-white font-normal">frisör i Borås centrum</strong> där resultatet blir rätt direkt.
+                                </p>
+
+                                <p>
+                                    Om du vill jämföra behandlingar och priser innan du bokar kan du se hela vår <Link href="/tjanster" className="text-gold-400 hover:text-gold-300 transition-colors">prislista för herrklippning, skäggvård och fade</Link>. Vill du läsa mer om hur vi arbetar kan du också ta del av vår guide om <Link href="/blogg/frisor-boras-centrum" className="text-gold-400 hover:text-gold-300 transition-colors">vad som kännetecknar en bra frisör i Borås centrum</Link>.
+                                </p>
+
                                 <div className="pt-4">
                                     <a
                                         href="tel:+46707678779"
@@ -475,6 +501,49 @@ export default function FrisorBorasPage() {
                                         Ring och boka →
                                     </a>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="py-24 px-6 border-t border-white/5 bg-dark-900">
+                    <div className="container mx-auto max-w-5xl">
+                        <div className="grid md:grid-cols-[1.1fr_0.9fr] gap-12 items-start">
+                            <div>
+                                <span className="text-gold-500 tracking-[0.3em] text-xs uppercase mb-6 block">För dig i Borås</span>
+                                <h2 className="font-serif text-4xl md:text-5xl text-white leading-tight mb-6">
+                                    Därför väljer kunder i Borås centrum LaVie.
+                                </h2>
+                                <div className="space-y-5 text-neutral-400 font-light leading-relaxed">
+                                    <p>
+                                        När någon söker efter en <strong className="text-white font-normal">frisör i Borås</strong> letar de sällan bara efter en stol och en sax. De letar efter någon som förstår stil, ansiktsform, hårtyp och hur resultatet ska fungera i vardagen.
+                                    </p>
+                                    <p>
+                                        Hos oss börjar varje besök med en kort konsultation. Vi går igenom hur du brukar styla håret, hur ofta du vill klippa dig och om du vill ha en klassisk herrklippning, taper eller en skarp fade. Det gör att du får ett resultat som håller längre och känns rätt även veckan efter besöket.
+                                    </p>
+                                    <p>
+                                        LaVie ligger centralt på Västerlånggatan 1, vilket gör oss till ett enkelt val för dig som vill boka en <strong className="text-white font-normal">frisör i Borås centrum</strong> nära jobb, shopping eller kollektivtrafik.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="bg-neutral-950 border border-white/5 p-8 rounded-sm">
+                                <p className="text-neutral-500 text-xs tracking-[0.3em] uppercase mb-5">Områden vi ofta har kunder från</p>
+                                <div className="flex flex-wrap gap-3 mb-8">
+                                    {localAreas.map((area) => (
+                                        <span key={area} className="border border-gold-500/20 px-4 py-2 text-sm text-neutral-300">
+                                            {area}
+                                        </span>
+                                    ))}
+                                </div>
+                                <p className="text-neutral-400 font-light text-sm leading-relaxed mb-6">
+                                    Söker du efter herrklippning, fade eller skäggvård i Borås är målet enkelt: boka en barberare som tar tid på detaljerna och håller jämn nivå över tid.
+                                </p>
+                                <Link
+                                    href="/kontakt"
+                                    className="inline-flex items-center gap-2 text-gold-400 hover:text-gold-300 transition-colors text-sm tracking-widest uppercase border-b border-gold-500/30 pb-1"
+                                >
+                                    Hitta hit och boka →
+                                </Link>
                             </div>
                         </div>
                     </div>

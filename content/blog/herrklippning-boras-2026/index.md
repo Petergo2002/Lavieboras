@@ -2,6 +2,8 @@
 
 <p>Borås är inte längre bara en textilstad; det är en stad där stil och medvetenhet växer för varje dag. Från Knalleland till Stora Torget ser vi män som bryr sig om sitt yttre, men som ofta saknar den sista pusselbiten – en barberare som verkligen lyssnar. I denna guide går vi igenom allt du behöver veta om herrklippning, skäggvård och styling, med fokus på vad som fungerar här i vår stad.</p>
 
+<p>Om du redan vet att du vill boka kan du läsa mer om vår salong och hur vi arbetar på sidan för <a href="/frisor-boras">frisör i Borås</a>. Där hittar du också priser, adress och varför många väljer LaVie för herrklippning i Borås centrum.</p>
+
 <h2>Varför en bra herrklippning är viktigare än du tror</h2>
 
 <h3>Det första intrycket består</h3>
@@ -23,7 +25,7 @@
 <li><strong>Frisörer</strong> är ofta generalister. De är duktiga på färg, långt hår och damklippningar. De kan absolut klippa män, men deras fokus är ofta bredare.</li>
 <li><strong>Barberare</strong> är specialister på män. Vi studerar manliga ansiktsformer, skäggväxtens riktning, och tekniker som "fading" och knivrakning som kräver år av träning för att bemästra.</li>
 </ul>
-<p>Om du söker en klassisk herrklippning, en skin fade eller skäggvård, är en renodlad barberare ofta det säkraste valet. På LaVie i Borås har vi valt att fokusera till 100% på män, för att kunna erbjuda spetskompetens snarare än bredd. Läs mer om <a href="/om-oss">våra barberare och filosofi</a>.</p>
+<p>Om du söker en klassisk herrklippning, en skin fade eller skäggvård, är en renodlad barberare ofta det säkraste valet. På LaVie i Borås har vi valt att fokusera till 100% på män, för att kunna erbjuda spetskompetens snarare än bredd. Läs mer om <a href="/om-oss">våra barberare och filosofi</a> eller gå direkt till vår sida för <a href="/frisor-boras">frisör i Borås centrum</a>.</p>
 
 <h3>Vad du ska titta efter i portföljen</h3>
 <p>När du letar efter en ny barberare i Borås, titta noga på deras sociala medier.</p>
@@ -69,6 +71,8 @@
 <div class="my-10 rounded-sm border border-gold-500/30 bg-white/5 p-6">
     <p class="m-0"><strong>Vill du hitta rätt frisyr för just dig?</strong> Boka en konsultation eller herrklippning hos oss på LaVie i Borås. Ring <a href="tel:0707678779">070-767 87 79</a> eller <a href="/kontakt">kontakta oss här</a>. Vill du se priser och behandlingar? Gå till <a href="/tjanster">/tjanster</a>.</p>
 </div>
+
+<p>För dig som jämför olika alternativ kan det också vara värt att läsa vår genomgång om <a href="/blogg/frisor-boras-centrum">vad du ska titta efter hos en frisör i Borås centrum</a> innan du bokar.</p>
 
 <h2>Skäggvård: Mer än bara trimning</h2>
 
@@ -141,7 +145,7 @@
 
 <p>Vi utbildar oss ständigt. Vi åker på mässor, går kurser och följer trenderna internationellt. Vi nöjer oss inte med "bra", vi strävar efter perfektion varje gång.</p>
 
-<p>Vårt läge på Västerlånggatan 1 är oslagbart. Mitt i centrum, nära till allt. Det är enkelt att slinka in på lunchen eller efter jobbet. Och när du väl är här, är du i fokus. Inga distraktioner, bara du och din barberare.</p>
+<p>Vårt läge på Västerlånggatan 1 är oslagbart. Mitt i centrum, nära till allt. Det är enkelt att slinka in på lunchen eller efter jobbet. Och när du väl är här, är du i fokus. Inga distraktioner, bara du och din barberare. Om du vill ha en snabb överblick över salongen, se vår sida för <a href="/frisor-boras">frisör i Borås</a>.</p>
 
 <h2>Boka din tid idag</h2>
 

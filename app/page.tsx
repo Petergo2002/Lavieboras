@@ -75,6 +75,11 @@ export default async function Home() {
                             Läs mer om oss som frisör i Borås →
                         </Link>
                     </div>
+                    <div className="pt-2">
+                        <Link href="/kontakt" className="text-neutral-400 border-b border-white/10 pb-1 hover:text-white transition-colors uppercase tracking-widest text-xs">
+                            Boka frisör i Borås centrum
+                        </Link>
+                    </div>
                 </div>
             </section>
 
@@ -105,6 +110,11 @@ export default async function Home() {
                             <p className="text-neutral-400 font-light text-sm max-w-sm">
                                 Skräddarsydd klippning anpassad efter din ansiktsform och hårtyp. Inkluderar tvätt och professionell styling.
                             </p>
+                            <div className="mt-4">
+                                <Link href="/frisor-boras" className="text-gold-500 hover:text-gold-400 transition-colors text-xs uppercase tracking-widest border-b border-gold-500/30 pb-1">
+                                    Läs om herrklippning hos vår frisör i Borås
+                                </Link>
+                            </div>
                         </div>
 
                         {/* Service 2 */}
@@ -125,6 +135,11 @@ export default async function Home() {
                             <p className="text-neutral-400 font-light text-sm max-w-sm">
                                 Traditionell rakning med kniv eller trimning med maskin. Alltid med varma handdukar för ultimat avkoppling.
                             </p>
+                            <div className="mt-4">
+                                <Link href="/frisor-boras" className="text-gold-500 hover:text-gold-400 transition-colors text-xs uppercase tracking-widest border-b border-gold-500/30 pb-1">
+                                    Se varför LaVie är frisör i Borås för skägg & trim
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
