@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     // MUST match the domain Google sees, which is www.lavieboras.se.
     metadataBase: new URL('https://www.lavieboras.se'),
     title: {
-        default: "Salong LaVie | Frisör i Borås – Herrklippning & Barberare",
+        default: "Frisör i Borås | Salong LaVie – Herrklippning & Barberare",
         template: "%s | Salong LaVie – Frisör Borås"
     },
     description: "Salong LaVie – din frisör i Borås centrum. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerlånggatan. Boka din tid hos Borås bästa barberare idag!",

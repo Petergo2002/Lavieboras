@@ -1,0 +1,51 @@
+{
+  "slug": "harprodukter-man-boras-2026",
+  "title": "5 Viktigaste Hårprodukterna för Män 2026 | LaVie Barberare Borås",
+  "date": "2026-03-12",
+  "excerpt": "Vilka hårprodukter behöver män egentligen under 2026? Läs vår guide om texturpuder, saltvattenspray, matt lera och mer från din frisör i Borås centrum.",
+  "image": "/images/blog/harprodukter-man-boras-2026/hero.png",
+  "keywords": [
+    "hårprodukter män borås",
+    "barberare borås",
+    "herrfrisör borås centrum",
+    "styla kort hår män",
+    "skäggolja borås",
+    "hårvax män"
+  ],
+  "schema": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "5 Viktigaste Hårprodukterna för Män 2026 | LaVie Barberare Borås",
+      "description": "Vilka hårprodukter behöver män egentligen? Läs LaVie Barberares guide till årets bästa stylingprodukter för killar i Borås.",
+      "image": "https://www.lavieboras.se/images/blog/harprodukter-man-boras-2026/hero.webp",
+      "author": {
+        "@type": "LocalBusiness",
+        "name": "LaVie Barberare",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Västerlånggatan 1",
+          "addressLocality": "Borås",
+          "postalCode": "503 30",
+          "addressCountry": "SE"
+        },
+        "telephone": "0707678779",
+        "url": "https://www.lavieboras.se"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "LaVie Barberare Borås",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.lavieboras.se/logo.png"
+        }
+      },
+      "datePublished": "2026-03-12",
+      "dateModified": "2026-03-12",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.lavieboras.se/blogg/harprodukter-man-boras-2026"
+      }
+    }
+  ]
+}
