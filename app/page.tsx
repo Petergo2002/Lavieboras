@@ -42,7 +42,7 @@ export default async function Home() {
                     </div>
                     <div className="md:w-1/2 relative h-[400px] md:h-[600px] w-full">
                         <Image
-                            src="/IMG_8723.JPG"
+                            src="/LEVERANS/JPEG/AR509680.jpg"
                             alt="Professionell barberare klipper kund på Salong LaVie i Borås"
                             fill
                             className="object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-out"
@@ -96,7 +96,7 @@ export default async function Home() {
                         <div className="group cursor-pointer">
                             <div className="relative h-96 w-full overflow-hidden mb-8">
                                 <Image
-                                    src="/hårfrisyr.JPG"
+                                    src="/LEVERANS/JPEG/AR509685.jpg"
                                     alt="Herrklippning och styling hos frisör i Borås"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -121,7 +121,7 @@ export default async function Home() {
                         <div className="group cursor-pointer mt-16 md:mt-0">
                             <div className="relative h-96 w-full overflow-hidden mb-8">
                                 <Image
-                                    src="/bilder2/skagg.jpg"
+                                    src="/LEVERANS/JPEG/AR509739.jpg"
                                     alt="Skäggvård och trimning hos barberare i Borås"
                                     fill
                                     className="object-cover group-hover:scale-105 transition-transform duration-700"

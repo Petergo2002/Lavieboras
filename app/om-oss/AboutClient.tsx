@@ -11,7 +11,7 @@ export default function AboutClient() {
             <section className="relative h-[85vh] w-full flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src="/IMG_8735.JPG"
+                        src="/LEVERANS/JPEG/AR509602.jpg"
                         alt="Salong LaVie interiör - Premium barberare i Borås"
                         fill
                         className="object-cover opacity-60 animate-slow-zoom"
@@ -71,7 +71,7 @@ export default function AboutClient() {
                         <div className="absolute inset-0 border border-gold-500/20 translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500" />
                         <div className="relative h-full w-full overflow-hidden">
                             <Image
-                                src="/IMG_8737.JPG"
+                                src="/LEVERANS/JPEG/AR509573.jpg"
                                 alt="Barberare arbetar med precision på Salong LaVie Borås"
                                 fill
                                 className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-100 group-hover:scale-105"
