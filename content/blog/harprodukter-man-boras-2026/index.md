@@ -36,7 +36,7 @@
 <p>För de lite mer dressade tillfällena eller de klassiska frisyrerna behöver man något annat än matt lera.</p>
 <ul>
 <li><strong>Så funkar den:</strong> Modern pomada ger stadga och hög glans likt brylkramerna från 50-talet, men den stora fördelen är att den numera är vattenbaserad och tvättas ut hur enkelt som helst (ofta i en enda schamponering).</li>
-<li><strong>Passar för:</strong> En ren sidbena (side-part) eller slick-back. Fantastisk till affärsmän som besöker vår barberare längs Västerlånggatan, Borås, för en sofistikerad och tidlös gentlemannalook.</li>
+<li><strong>Passar för:</strong> En ren sidbena (side-part) eller slick-back. Fantastisk till affärsmän som besöker vår barberare längs Västerbrogatan, Borås, för en sofistikerad och tidlös gentlemannalook.</li>
 </ul>
 
 <h2>Få Rätt Vägledning – Vi Hjälper Dig!</h2>
@@ -51,7 +51,7 @@
 <ul>
 <li><strong>Online:</strong> <a href="/kontakt">Boka här</a></li>
 <li><strong>Telefon:</strong> 070-767 87 79</li>
-<li><strong>Besök oss:</strong> Västerlånggatan 1, 503 30 Borås</li>
+<li><strong>Besök oss:</strong> Västerbrogatan 1, 503 30 Borås</li>
 </ul>
 
 <p>Våra experter väntar på att få klippa fram din bästa sida och hjälpa dig fylla badrumsskåpet med årets vassaste produkter.</p>

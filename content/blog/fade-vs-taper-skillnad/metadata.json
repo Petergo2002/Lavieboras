@@ -27,7 +27,7 @@
         "name": "LaVie Barberare",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Västerlånggatan 1",
+          "streetAddress": "Västerbrogatan 1",
           "addressLocality": "Borås",
           "postalCode": "503 30",
           "addressCountry": "SE"

@@ -32,7 +32,7 @@ export default async function Home() {
                         </h2>
                         <p className="text-neutral-400 font-light text-lg leading-relaxed max-w-xl">
                             Vi är mer än bara en frisörsalong i Borås. Som erfarna barberare skapar vi en destination för den moderna gentlemannen som värdesätter kvalitet,
-                            detaljer och en stund av avkoppling. Stig in i en värld av exklusivitet på Västerlånggatan.
+                            detaljer och en stund av avkoppling. Stig in i en värld av exklusivitet på Västerbrogatan.
                         </p>
                         <div className="pt-4">
                             <Link href="/om-oss" className="text-white border-b border-gold-500 pb-1 hover:text-gold-500 transition-colors uppercase tracking-widest text-xs">
@@ -64,7 +64,7 @@ export default async function Home() {
                     </h2>
                     <div className="text-neutral-400 font-light leading-relaxed space-y-6 text-lg">
                         <p>
-                            Välkommen till Salong LaVie, din självklara <strong>frisör i Borås</strong>. Belägna på <span className="text-gold-400">Västerlånggatan</span> erbjuder vi en modern tolkning av den klassiska <strong>barberare</strong>-upplevelsen.
+                            Välkommen till Salong LaVie, din självklara <strong>frisör i Borås</strong>. Belägna på <span className="text-gold-400">Västerbrogatan</span> erbjuder vi en modern tolkning av den klassiska <strong>barberare</strong>-upplevelsen.
                         </p>
                         <p>
                             Oavsett om du söker en skarp <strong>fade</strong>, en traditionell <strong>rakning med kniv</strong>, eller en klassisk <strong>herrklippning</strong>, står vårt team redo med precision och hantverksskicklighet. Vi är inte bara en frisörsalong, vi är en destination för den moderna mannen som ställer krav på sin look.

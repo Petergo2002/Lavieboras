@@ -5,7 +5,7 @@
 <h2>Varför LaVie kallas Borås mest exklusiva frisörsalong</h2>
 
 <h3>En oas i centrala Borås</h3>
-<p>Redan när du kliver över tröskeln på Västerlånggatan 1 märker du skillnaden. Det doftar av sandelträ och läder. Ljuset är varmt och dämpat. Musiken är noga utvald för att skapa lugn. Vår inredning är inspirerad av klassiska brittiska barber shops, men med en modern twist – designad för att du ska vilja stanna kvar en stund.</p>
+<p>Redan när du kliver över tröskeln på Västerbrogatan 1 märker du skillnaden. Det doftar av sandelträ och läder. Ljuset är varmt och dämpat. Musiken är noga utvald för att skapa lugn. Vår inredning är inspirerad av klassiska brittiska barber shops, men med en modern twist – designad för att du ska vilja stanna kvar en stund.</p>
 
 <h3>Tid, närvaro och ett bemötande som känns personligt</h3>
 <p>Vi tror att exklusivitet inte handlar om att det ska vara stelt – det handlar om att du ska känna dig omhändertagen. Att du får tid. Att du känner dig sedd. Oavsett om du kommer in för en herrklippning, en uppfräschning eller rådgivning om styling, vill vi att du lämnar med känslan av att “det där var värt det”.</p>
@@ -39,7 +39,7 @@
 <p>Du behöver inte lägga 20 minuter varje morgon. Med rätt klippning och rätt produkt kan 2–3 minuter räcka. Vi visar hur mycket produkt du ska använda, var du ska applicera den, och hur du får volym eller struktur beroende på vilken look du vill ha.</p>
 
 <h2>Redo att uppleva LaVie-upplevelsen?</h2>
-<p>Om du vill ha en frisör i Borås som kombinerar stil, lugn och hantverk – då är du varmt välkommen. Vi finns på Västerlånggatan 1 och tar emot både nya och återkommande kunder som vill ha ett resultat de kan vara stolta över.</p>
+<p>Om du vill ha en frisör i Borås som kombinerar stil, lugn och hantverk – då är du varmt välkommen. Vi finns på Västerbrogatan 1 och tar emot både nya och återkommande kunder som vill ha ett resultat de kan vara stolta över.</p>
 
 <div class="my-10 rounded-sm bg-gold-600 p-6 text-black">
     <p class="m-0"><strong>Boka tid idag:</strong> Ring <a class="text-black underline" href="tel:0707678779">070-767 87 79</a> eller <a class="text-black underline" href="/kontakt">boka via kontakt</a>. Vill du först se våra tjänster och priser? Gå till <a class="text-black underline" href="/tjanster">/tjanster</a>.</p>

@@ -10,7 +10,7 @@ Oavsett om du söker en enkel klippning eller en komplett skäggvård finns det 
 
 ### 1. Läget spelar roll
 
-En frisör i **Borås centrum** är mer tillgänglig – du kan boka in en klippning i samband med ett ärende eller lunchrasten. Salong LaVie ligger på **Västerlånggatan 1**, ett av Borås mest välbesökta stråk. Kollektivtrafiken stannar nära och det finns parkering i närheten, vilket gör det enkelt för kunder från både centrum och områden runt omkring.
+En frisör i **Borås centrum** är mer tillgänglig – du kan boka in en klippning i samband med ett ärende eller lunchrasten. Salong LaVie ligger på **Västerbrogatan 1**, ett av Borås mest välbesökta stråk. Kollektivtrafiken stannar nära och det finns parkering i närheten, vilket gör det enkelt för kunder från både centrum och områden runt omkring.
 
 ### 2. Erfarenhet av herrklippning
 
@@ -53,7 +53,7 @@ Vi använder bara professionella produkter för tvätt, styling och skäggvård.
 
 ## Hitta oss: Din frisör i Borås centrum
 
-**Adress:** Västerlånggatan 1, 503 30 Borås  
+**Adress:** Västerbrogatan 1, 503 30 Borås  
 **Telefon:** [070-767 87 79](tel:+46707678779)  
 **E-post:** info@lavieboras.se
 
@@ -65,7 +65,7 @@ Vi använder bara professionella produkter för tvätt, styling och skäggvård.
 
 ## Boka din tid hos oss idag
 
-Redo att boka tid? Ring oss på **070-767 87 79** eller kom förbi direkt på Västerlånggatan 1. Drop-in är välkommen när det finns lediga tider, men vi rekommenderar att boka i förväg för att garantera din plats. Vill du jämföra tjänster först kan du gå vidare till vår sida om [frisör i Borås](/frisor-boras) eller se hela [prislistan](/tjanster).
+Redo att boka tid? Ring oss på **070-767 87 79** eller kom förbi direkt på Västerbrogatan 1. Drop-in är välkommen när det finns lediga tider, men vi rekommenderar att boka i förväg för att garantera din plats. Vill du jämföra tjänster först kan du gå vidare till vår sida om [frisör i Borås](/frisor-boras) eller se hela [prislistan](/tjanster).
 
 Vi ses på salongen.
 

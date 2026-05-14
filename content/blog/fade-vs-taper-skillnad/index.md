@@ -1,4 +1,4 @@
-<p class="lead">Är du osäker på vad du ska be om när du sätter dig i barberarstolen? Du är inte ensam. Termerna "fade" och "taper" används ofta synonymt, men det är två helt skilda tekniker som ger drastiskt olika resultat. Att känna till skillnaden är nyckeln till att få exakt den frisyr du vill ha. På LaVie Barberare i Borås möter vi dagligen män som blandar ihop begreppen. Resultatet? Onödiga missförstånd. I denna kompletta guide reder vi ut begreppen en gång för alla, så att du kan kliva in på vår salong på Västerlånggatan med fullt självförtroende och beställa din perfekta look.</p>
+<p class="lead">Är du osäker på vad du ska be om när du sätter dig i barberarstolen? Du är inte ensam. Termerna "fade" och "taper" används ofta synonymt, men det är två helt skilda tekniker som ger drastiskt olika resultat. Att känna till skillnaden är nyckeln till att få exakt den frisyr du vill ha. På LaVie Barberare i Borås möter vi dagligen män som blandar ihop begreppen. Resultatet? Onödiga missförstånd. I denna kompletta guide reder vi ut begreppen en gång för alla, så att du kan kliva in på vår salong på Västerbrogatan med fullt självförtroende och beställa din perfekta look.</p>
 
 <h2>Varför kunskap om Fade och Taper är avgörande för moderna män</h2>
 
@@ -96,7 +96,7 @@
 
 <h2>Steg-för-steg: Så går en klippning till på LaVie</h2>
 
-<p>När du besöker oss på Västerlånggatan 1 för en fade eller taper, går vi igenom en noggrann process. Vi är inte en "löpande band"-salong; vi är barberare som värdesätter hantverket.</p>
+<p>När du besöker oss på Västerbrogatan 1 för en fade eller taper, går vi igenom en noggrann process. Vi är inte en "löpande band"-salong; vi är barberare som värdesätter hantverket.</p>
 
 <h3>Steg 1: Konsultationen</h3>
 <p>Allt börjar här. Vi tittar på din hårväxt, din huvudform och pratar om din livsstil. Är du beredd att styla håret varje morgon? Hur ofta vill du klippa dig? Tillsammans bestämmer vi om det blir en fade eller taper.</p>
@@ -188,7 +188,7 @@
 <h3>Vårt hantverk och erfarenhet</h3>
 <p>Vårt team består av barberare som brinner för yrket. Vi utbildar oss löpande i de senaste teknikerna, från klassisk knivrakning till moderna fades. Vi vet skillnaden på en taper och en fade, och vi vet hur man utför dem med kirurgisk precision. Läs mer om <a href="/om-oss">våra barberare och filosofi</a>.</p>
 
-<h3>Centralt läge på Västerlånggatan</h3>
+<h3>Centralt läge på Västerbrogatan</h3>
 <p>Vi finns mitt i smeten. Oavsett om du kommer från Knalleland, Stora Torget eller tar bussen till stationen, är det bara några minuters promenad till oss. Perfekt för en lunchklippning eller ett besök efter jobbet.</p>
 
 <h3>Personlig konsultation varje besök</h3>
@@ -203,7 +203,7 @@
 <ul>
 <li>💻 <strong>Online:</strong> <a href="/kontakt">Boka här</a></li>
 <li>📞 <strong>Telefon:</strong> 070-767 87 79</li>
-<li>📍 <strong>Besök oss:</strong> Västerlånggatan 1, 503 30 Borås</li>
+<li>📍 <strong>Besök oss:</strong> Västerbrogatan 1, 503 30 Borås</li>
 </ul>
 
 <p>Ge ditt hår den expertis det förtjänar. Vi ses i stolen!</p>

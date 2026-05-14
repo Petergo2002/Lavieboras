@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         default: "Frisör i Borås | Salong LaVie – Herrklippning & Barberare",
         template: "%s | Salong LaVie – Frisör Borås"
     },
-    description: "Salong LaVie – din frisör i Borås centrum. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerlånggatan. Boka din tid hos Borås bästa barberare idag!",
+    description: "Salong LaVie – din frisör i Borås centrum. Vi erbjuder herrklippning, skäggtrimning och rakning med kniv på Västerbrogatan. Boka din tid hos Borås bästa barberare idag!",
     keywords: [
         "frisör borås",
         "frisör i borås",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         "klippning borås",
         "skäggtrimning borås",
         "rakning med kniv borås",
-        "frisör västerlånggatan borås"
+        "frisör västerbrogatan borås"
     ],
     authors: [{ name: "Salong LaVie" }],
     creator: "Salong LaVie",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
         url: 'https://www.lavieboras.se',
         siteName: 'Salong LaVie',
         title: 'Salong LaVie | Frisör i Borås – Herrklippning & Barberare',
-        description: 'Salong LaVie – bästa frisören i Borås. Professionell herrklippning, skäggvård och styling på Västerlånggatan. Boka tid: 070-767 87 79',
+        description: 'Salong LaVie – bästa frisören i Borås. Professionell herrklippning, skäggvård och styling på Västerbrogatan. Boka tid: 070-767 87 79',
         images: [
             {
                 url: '/IMG_8735.JPG',
@@ -92,7 +92,7 @@ const jsonLd = {
     email: 'info@lavieboras.se',
     address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Västerlånggatan 1',
+        streetAddress: 'Västerbrogatan 1',
         addressLocality: 'Borås',
         postalCode: '503 30',
         addressCountry: 'SE',

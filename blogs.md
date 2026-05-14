@@ -143,7 +143,7 @@ vanligtvis från nacke/tinningar uppåt.
 - Du är bekväm med att besöka frisören var 3-4 vecka
 - Du gillar en maskulin, skarp profil
 
-**Boka din fade-klippning** hos våra erfarna barberare på Västerlånggatan.
+**Boka din fade-klippning** hos våra erfarna barberare på Västerbrogatan.
 
 ---
 
@@ -234,7 +234,7 @@ och priser"
 
 **3. Till Om Oss/Kontakt**
 ```
-"Möt [vårt team av erfarna barberare](/om-oss) på Västerlånggatan"
+"Möt [vårt team av erfarna barberare](/om-oss) på Västerbrogatan"
 ```
 
 ### **Anchor text-regler:**
@@ -265,7 +265,7 @@ Boka tid hos våra experter på Salong LaVie i Borås.
 Nu har du alla verktygen för professionell skäggvård hemma. Men 
 inget slår expertisen hos en erfaren barberare. 
 
-Hos Salong LaVie på Västerlånggatan i Borås erbjuder vi:
+Hos Salong LaVie på Västerbrogatan i Borås erbjuder vi:
 ✓ Professionell skäggtrimning från 200 kr
 ✓ Traditionell rakning med rakkniv
 ✓ Personlig rådgivning om produkter
@@ -315,12 +315,12 @@ Med dessa tekniker från våra barberare kommer ditt skägg se och
 kännas bättre än någonsin. Men kom ihåg - professionell trimning 
 var 4-6 vecka håller formen skarp.
 
-Redo att uppleva skillnaden? Besök Salong LaVie på Västerlånggatan 
+Redo att uppleva skillnaden? Besök Salong LaVie på Västerbrogatan 
 i Borås. Vi har över 20 års samlad erfarenhet av herrfrisering och 
 traditionell barbering.
 
 📞 Boka tid: 070-767 87 79  
-📍 Västerlånggatan 1, 503 30 Borås
+📍 Västerbrogatan 1, 503 30 Borås
 
 Vi ses i salongen!
 
@@ -456,7 +456,7 @@ våra kunder lär sig - samma metoder som professionella barberare använder.
 - Salong: Formändring, halslinjer, precision
 
 [Boka professionell skäggtrimning](/tjanster#skaggvard) hos oss på 
-Västerlånggatan i Borås.
+Västerbrogatan i Borås.
 
 ---
 
@@ -489,7 +489,7 @@ ger personlig rådgivning vid varje besök.
 [100-150 ord sammanfattning + CTA]
 
 📞 Boka tid: 070-767 87 79  
-📍 Västerlånggatan 1, 503 30 Borås
+📍 Västerbrogatan 1, 503 30 Borås
 
 **Läs även:**
 - [Herrklippningar 2026: Trenderna](/blogg/herrklippningar-trender)

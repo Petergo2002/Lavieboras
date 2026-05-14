@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
     title: "Frisör i Borås Centrum | Herrklippning, Fade & Skägg | LaVie",
     description:
-        "Söker du en frisör i Borås? LaVie på Västerlånggatan erbjuder herrklippning, fade och skäggvård från 250 kr. Boka tid hos frisör i Borås centrum.",
+        "Söker du en frisör i Borås? LaVie på Västerbrogatan erbjuder herrklippning, fade och skäggvård från 250 kr. Boka tid hos frisör i Borås centrum.",
     keywords: [
         "frisör borås",
         "frisör i borås",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Frisör i Borås | Salong LaVie",
         description:
-            "Borås bästa frisör på Västerlånggatan. Professionell herrklippning från 250 kr. Boka idag!",
+            "Borås bästa frisör på Västerbrogatan. Professionell herrklippning från 250 kr. Boka idag!",
         url: "https://www.lavieboras.se/frisor-boras",
         images: [
             {
@@ -88,7 +88,7 @@ const reasons = [
     {
         icon: "✦",
         title: "Centralt i Borås",
-        body: "Västerlånggatan 1 – 2 minuter från Stora Torget. Du kan svänga förbi på lunchrasten och komma tillbaka en annan människa.",
+        body: "Västerbrogatan 1 – 2 minuter från Stora Torget. Du kan svänga förbi på lunchrasten och komma tillbaka en annan människa.",
     },
     {
         icon: "✦",
@@ -136,7 +136,7 @@ const faqs = [
     },
     {
         q: "Var finns ni?",
-        a: "Västerlånggatan 1, Borås centrum – ett stenkast från Stora Torget. Enkelt med kollektivtrafik och parkering nära.",
+        a: "Västerbrogatan 1, Borås centrum – ett stenkast från Stora Torget. Enkelt med kollektivtrafik och parkering nära.",
     },
     {
         q: "Behöver jag boka i förväg?",
@@ -177,7 +177,7 @@ const pageJsonLd = {
             telephone: "+46707678779",
             address: {
                 "@type": "PostalAddress",
-                streetAddress: "Västerlånggatan 1",
+                streetAddress: "Västerbrogatan 1",
                 addressLocality: "Borås",
                 postalCode: "503 30",
                 addressCountry: "SE",
@@ -210,7 +210,7 @@ export default function FrisorBorasPage() {
                     {/* Background image */}
                     <Image
                         src="/IMG_8735.JPG"
-                        alt="Frisör i Borås – Salong LaVie på Västerlånggatan"
+                        alt="Frisör i Borås – Salong LaVie på Västerbrogatan"
                         fill
                         className="object-cover object-center"
                         priority
@@ -263,7 +263,7 @@ export default function FrisorBorasPage() {
                             {[
                                 { value: "5.0", label: "Google-betyg" },
                                 { value: "250 kr", label: "Från" },
-                                { value: "Västerlånggatan 1", label: "Borås centrum" },
+                                { value: "Västerbrogatan 1", label: "Borås centrum" },
                                 { value: "Fade & herrklippning", label: "Specialitet" },
                             ].map((stat) => (
                                 <div key={stat.label}>
@@ -443,7 +443,7 @@ export default function FrisorBorasPage() {
                                 </h2>
                                 <div className="mt-8 pt-8 border-t border-white/10">
                                     <p className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Adress</p>
-                                    <p className="text-white font-light text-sm">Västerlånggatan 1<br />503 30 Borås</p>
+                                    <p className="text-white font-light text-sm">Västerbrogatan 1<br />503 30 Borås</p>
                                 </div>
                                 <div className="mt-6">
                                     <p className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Öppet</p>
@@ -464,7 +464,7 @@ export default function FrisorBorasPage() {
                                 </p>
 
                                 <p>
-                                    Salong LaVie öppnade på Västerlånggatan med en enkel tanke: herrar i Borås förtjänar en salong som tar klippning på allvar. Inte en salong som rusar igenom kunderna, pushar sina produkter eller lämnar dig med en halvfärdig fade som sitter snett tre dagar senare.
+                                    Salong LaVie öppnade på Västerbrogatan med en enkel tanke: herrar i Borås förtjänar en salong som tar klippning på allvar. Inte en salong som rusar igenom kunderna, pushar sina produkter eller lämnar dig med en halvfärdig fade som sitter snett tre dagar senare.
                                 </p>
 
                                 <p>
@@ -474,7 +474,7 @@ export default function FrisorBorasPage() {
                                 <hr className="border-white/10 my-10" />
 
                                 <p>
-                                    Vi befinner oss mitt i <strong className="text-white font-normal">Borås centrum</strong> på Västerlånggatan 1 – precis intill Stora Torget. Du behöver inte planera ett halvdagsprojekt för att komma hit. Sväng in på lunchrasten, eller boka direkt efter jobbet.
+                                    Vi befinner oss mitt i <strong className="text-white font-normal">Borås centrum</strong> på Västerbrogatan 1 – precis intill Stora Torget. Du behöver inte planera ett halvdagsprojekt för att komma hit. Sväng in på lunchrasten, eller boka direkt efter jobbet.
                                 </p>
 
                                 <p>
@@ -522,7 +522,7 @@ export default function FrisorBorasPage() {
                                         Hos oss börjar varje besök med en kort konsultation. Vi går igenom hur du brukar styla håret, hur ofta du vill klippa dig och om du vill ha en klassisk herrklippning, taper eller en skarp fade. Det gör att du får ett resultat som håller längre och känns rätt även veckan efter besöket.
                                     </p>
                                     <p>
-                                        LaVie ligger centralt på Västerlånggatan 1, vilket gör oss till ett enkelt val för dig som vill boka en <strong className="text-white font-normal">frisör i Borås centrum</strong> nära jobb, shopping eller kollektivtrafik.
+                                        LaVie ligger centralt på Västerbrogatan 1, vilket gör oss till ett enkelt val för dig som vill boka en <strong className="text-white font-normal">frisör i Borås centrum</strong> nära jobb, shopping eller kollektivtrafik.
                                     </p>
                                 </div>
                             </div>
@@ -601,7 +601,7 @@ export default function FrisorBorasPage() {
                             <span className="text-gold-500 italic">Borås.</span>
                         </h2>
                         <p className="text-neutral-300 font-light text-lg leading-relaxed mb-12 max-w-xl mx-auto">
-                            Ring oss, sväng förbi eller boka tid nu. Vi finns på Västerlånggatan 1 i Borås centrum och vi ser fram emot att välkomna dig.
+                            Ring oss, sväng förbi eller boka tid nu. Vi finns på Västerbrogatan 1 i Borås centrum och vi ser fram emot att välkomna dig.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

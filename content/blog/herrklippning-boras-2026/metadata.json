@@ -17,14 +17,14 @@
       "@context": "https://schema.org",
       "@type": "BlogPosting",
       "headline": "Herrklippning Borås: Komplett Guide 2026 – LaVie Barberare",
-      "description": "Letar du efter den bästa herrklippningen i Borås? Här är din ultimata guide till barberare, frisyrer och vad du ska tänka på inför ditt besök hos LaVie på Västerlånggatan.",
+      "description": "Letar du efter den bästa herrklippningen i Borås? Här är din ultimata guide till barberare, frisyrer och vad du ska tänka på inför ditt besök hos LaVie på Västerbrogatan.",
       "image": "https://www.lavieboras.se/images/blog/herrklippning-boras-2026/hero.webp",
       "author": {
         "@type": "LocalBusiness",
         "name": "LaVie Barberare",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Västerlånggatan 1",
+          "streetAddress": "Västerbrogatan 1",
           "addressLocality": "Borås",
           "postalCode": "503 30",
           "addressCountry": "SE"

@@ -52,5 +52,5 @@
 <p>Att trimma sitt eget skägg är svårt, särskilt halslinjen. En professionell skäggtrimning hos barberaren en gång i månaden gör underverk. På Salong LaVie lägger vi grunden och formen, så att du enkelt kan underhålla det hemma däremellan. Boka en <strong>Skäggtrimning Deluxe</strong> hos oss så ingår varma handdukar och knivrakning av linjerna för den där extra skarpa looken.</p>
 
 <div class="my-10 rounded-sm bg-gold-600 p-6 text-black">
-    <p class="m-0"><strong>Redo att ta ditt skägg till nästa nivå?</strong> Ring <a class="text-black underline" href="tel:0707678779">070-767 87 79</a> eller <a class="text-black underline" href="/kontakt">boka via kontakt</a>. Vi finns på Västerlånggatan 1 i Borås.</p>
+    <p class="m-0"><strong>Redo att ta ditt skägg till nästa nivå?</strong> Ring <a class="text-black underline" href="tel:0707678779">070-767 87 79</a> eller <a class="text-black underline" href="/kontakt">boka via kontakt</a>. Vi finns på Västerbrogatan 1 i Borås.</p>
 </div>

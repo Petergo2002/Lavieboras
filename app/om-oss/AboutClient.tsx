@@ -118,7 +118,7 @@ export default function AboutClient() {
                     <div className="space-y-4 group p-8 border border-white/5 hover:border-gold-500/30 transition-colors duration-500">
                         <h4 className="font-serif text-2xl text-white group-hover:text-gold-500 transition-colors">Gemenskap</h4>
                         <p className="text-neutral-500 font-light leading-relaxed">
-                            Salong LaVie är mer än en frisörsalong. Det är en mötesplats. En del av Borås hjärta på Västerlånggatan.
+                            Salong LaVie är mer än en frisörsalong. Det är en mötesplats. En del av Borås hjärta på Västerbrogatan.
                         </p>
                     </div>
                 </div>

@@ -30,7 +30,7 @@ export default function Footer() {
                         <Link href="https://instagram.com/lavieboras" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500 transition-colors"><Instagram size={20} /></Link>
                         <Link href="https://www.facebook.com/SalongLaVieBoras/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500 transition-colors"><Facebook size={20} /></Link>
                     </div>
-                    <p className="text-sm">Västerlånggatan 1</p>
+                    <p className="text-sm">Västerbrogatan 1</p>
                     <p className="text-sm">503 30 Borås</p>
                     <p className="text-sm mt-2">070-767 87 79</p>
                 </div>

@@ -73,7 +73,7 @@ export default function ContactClient() {
                                     <div>
                                         <h3 className="font-serif text-xl text-white group-hover:text-gold-500 transition-colors mb-2">Adress</h3>
                                         <p className="text-neutral-400 font-light">
-                                            Västerlånggatan 1<br />
+                                            Västerbrogatan 1<br />
                                             503 30 Borås
                                         </p>
                                     </div>
@@ -181,10 +181,10 @@ export default function ContactClient() {
                     <div className="text-center">
                         <MapPin className="text-gold-500 mx-auto mb-4" size={48} />
                         <p className="text-neutral-400 font-light">
-                            Västerlånggatan 1, 503 30 Borås
+                            Västerbrogatan 1, 503 30 Borås
                         </p>
                         <a
-                            href="https://maps.google.com/?q=Västerlånggatan+1+503+30+Borås+Sweden"
+                            href="https://maps.google.com/?q=Västerbrogatan+1+503+30+Borås+Sweden"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block mt-4 text-gold-500 text-sm tracking-widest uppercase hover:text-white transition-colors"

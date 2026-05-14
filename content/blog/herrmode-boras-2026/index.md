@@ -43,5 +43,5 @@
 <p>Årets stora tema är balans: en frisyr ska vara modern, men fortfarande passa din vardag. Textured crop, modern mullet/wolf cut, low taper fade och en välgjord buzz cut är de stilar vi ser mest – men den bästa frisyren är alltid den som är anpassad efter dig.</p>
 
 <div class="my-10 rounded-sm bg-gold-600 p-6 text-black">
-    <p class="m-0"><strong>Redo för en uppgradering?</strong> Ring <a class="text-black underline" href="tel:0707678779">070-767 87 79</a> eller <a class="text-black underline" href="/kontakt">boka via kontakt</a>. Vi ses på Västerlånggatan i Borås.</p>
+    <p class="m-0"><strong>Redo för en uppgradering?</strong> Ring <a class="text-black underline" href="tel:0707678779">070-767 87 79</a> eller <a class="text-black underline" href="/kontakt">boka via kontakt</a>. Vi ses på Västerbrogatan i Borås.</p>
 </div>

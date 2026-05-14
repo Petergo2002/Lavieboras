@@ -48,7 +48,7 @@
 
 <h2>Populära Herrfrisyrer i Borås 2026</h2>
 
-<p>Modet förändras, och Borås hänger med. Här är de stilar vi ser mest av på gatorna runt Sandwalls Plats och Västerlånggatan i år.</p>
+<p>Modet förändras, och Borås hänger med. Här är de stilar vi ser mest av på gatorna runt Sandwalls Plats och Västerbrogatan i år.</p>
 
 <h3>1. Skin Fade med Crop Top</h3>
 <p>Detta är favoriten bland yngre män och de som vill ha en lättskött men trendig look. Sidorna rakas ner till huden (skin fade) och övergår mjukt till toppen, som klipps kort och texturerat framåt (crop). Det är snyggt, maskulint och kräver väldigt lite stylingprodukter. Perfekt för den aktiva Boråsaren som tränar på gym eller spelar padel och behöver en frisyr som håller formen.</p>
@@ -86,7 +86,7 @@
 
 <h2>Processen hos LaVie Barberare</h2>
 
-<p>Vad kan du förvänta dig när du bokar en tid hos oss på Västerlånggatan 1? Vi har utformat vår process för att vara en upplevelse, inte bara ett ärende.</p>
+<p>Vad kan du förvänta dig när du bokar en tid hos oss på Västerbrogatan 1? Vi har utformat vår process för att vara en upplevelse, inte bara ett ärende.</p>
 
 <h3>Steg 1: Ankomst och Avkoppling</h3>
 <p>När du kommer in möts du av en lugn atmosfär. Häng av dig jackan, slå dig ner i våra bekväma soffor. Vi bjuder alltid på en kaffe eller en kall dryck medan du väntar. Det handlar om att landa efter en stressig dag.</p>
@@ -139,13 +139,13 @@
 </ul>
 <p>Fråga oss, vi guidar dig rätt. Om du vill ha en snabb översikt över produkterna kan du också läsa vår guide: <a href="/blogg/styling-guide-boras">hårvax, pomada eller clay</a>.</p>
 
-<h2>Varför välja LaVie på Västerlånggatan?</h2>
+<h2>Varför välja LaVie på Västerbrogatan?</h2>
 
 <p>Borås har många frisörer. Varför ska du välja just oss? Vi tror det handlar om passion. För oss är barbering inte ett jobb, det är ett hantverk och en livsstil. Vi har skapat en plats där män kan känna sig hemma, där tempot sänks och där kvaliteten alltid står i fokus.</p>
 
 <p>Vi utbildar oss ständigt. Vi åker på mässor, går kurser och följer trenderna internationellt. Vi nöjer oss inte med "bra", vi strävar efter perfektion varje gång.</p>
 
-<p>Vårt läge på Västerlånggatan 1 är oslagbart. Mitt i centrum, nära till allt. Det är enkelt att slinka in på lunchen eller efter jobbet. Och när du väl är här, är du i fokus. Inga distraktioner, bara du och din barberare. Om du vill ha en snabb överblick över salongen, se vår sida för <a href="/frisor-boras">frisör i Borås</a>.</p>
+<p>Vårt läge på Västerbrogatan 1 är oslagbart. Mitt i centrum, nära till allt. Det är enkelt att slinka in på lunchen eller efter jobbet. Och när du väl är här, är du i fokus. Inga distraktioner, bara du och din barberare. Om du vill ha en snabb överblick över salongen, se vår sida för <a href="/frisor-boras">frisör i Borås</a>.</p>
 
 <h2>Boka din tid idag</h2>
 
@@ -154,7 +154,7 @@
 <p><a href="/kontakt">Boka din tid</a> direkt här på hemsidan, eller slå oss en signal. Vi ser fram emot att välkomna dig till stolen.</p>
 
 <p><strong>LaVie Barberare</strong><br>
-Västerlånggatan 1, 503 30 Borås<br>
+Västerbrogatan 1, 503 30 Borås<br>
 Tel: 070-767 87 79</p>
 
 <p><em>Välkommen till en bättre frisörupplevelse.</em></p>
