@@ -26,7 +26,7 @@
 </ul>
 
 <h3>4. Skäggolja (Beard Oil) – För Helheten</h3>
-<p>Vi kan inte prata grooming utan att nämna skägget. En vass herrklippning kräver ett välskött skägg.</p>
+<p>Vi kan inte prata hårvård & skäggvård utan att nämna skägget. En vass herrklippning kräver ett välskött skägg.</p>
 <ul>
 <li><strong>Så funkar den:</strong> Den återfuktar både skäggstråna och huden under, förhindrar klåda, och motverkar skäggmjäll. Dessutom ger det skägget en diskret och fräsch lyster och en fantastisk maskulin doft.</li>
 <li><strong>Passar för:</strong> Alla män med mer än tredagarsstubb. Smörj in varje morgon efter duschen – ett måste i det torra svenska klimatet! Läs mer i vår <a href="/blogg/varda-skagg-tips">guide för skäggvård</a>.</li>

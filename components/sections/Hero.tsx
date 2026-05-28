@@ -66,7 +66,7 @@ export default function Hero() {
                             className="text-neutral-200 font-light text-sm md:text-base leading-relaxed max-w-[280px]"
                         >
                             <span className="text-gold-500 font-medium block mb-2 uppercase tracking-widest text-xs">Salong LaVie</span>
-                            Din destination för modern grooming i centrala Borås. Upplev skillnaden av äkta hantverk.
+                            Din destination för modern hårvård & stil i centrala Borås. Upplev skillnaden av äkta hantverk.
                         </motion.p>
 
                         <motion.a

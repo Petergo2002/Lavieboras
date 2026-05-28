@@ -15,8 +15,8 @@ function formatBlogDate(date: string) {
 
 export const metadata: Metadata = {
     title: "Blogg | Frisörtips & Trender för Män",
-    description: "Läs våra expertartiklar om herrfrisyrer, skäggvård och groomingtrender i Borås. Tips från professionella barberare på Salong LaVie.",
-    keywords: ["frisör tips borås", "herrfrisyrer 2024", "skäggvård tips", "barberare blogg", "grooming borås"],
+    description: "Läs våra expertartiklar om herrfrisyrer, skäggvård och de senaste trenderna i Borås. Tips från professionella barberare på Salong LaVie.",
+    keywords: ["frisör tips borås", "herrfrisyrer 2024", "skäggvård tips", "barberare blogg", "hårvård borås"],
     alternates: {
         canonical: 'https://www.lavieboras.se/blogg',
     },
@@ -40,7 +40,7 @@ export default async function BlogPage() {
                         Journalen
                     </h1>
                     <p className="text-neutral-400 font-light max-w-xl mx-auto text-lg">
-                        Din guide till modern manlig grooming, trender och livsstil. Experttips från professionella barberare.
+                        Din guide till modern manlig hårvård, trender och livsstil. Experttips från professionella barberare.
                     </p>
                 </header>
 
