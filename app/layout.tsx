@@ -120,7 +120,7 @@ const jsonLd = {
     priceRange: '$$',
     image: 'https://www.lavieboras.se/IMG_8735.JPG',
     sameAs: [
-        'https://instagram.com/lavieboras',
+        'https://www.instagram.com/la_vie_boras/',
         'https://www.facebook.com/SalongLaVieBoras/'
     ],
     areaServed: {

@@ -27,7 +27,7 @@ export default function Footer() {
                 <div>
                     <h4 className="text-white font-medium mb-6 text-sm tracking-wider">FÖLJ OSS</h4>
                     <div className="flex justify-center md:justify-start gap-6 mb-8">
-                        <Link href="https://instagram.com/lavieboras" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500 transition-colors"><Instagram size={20} /></Link>
+                        <Link href="https://www.instagram.com/la_vie_boras/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500 transition-colors"><Instagram size={20} /></Link>
                         <Link href="https://www.facebook.com/SalongLaVieBoras/" target="_blank" rel="noopener noreferrer" className="hover:text-gold-500 transition-colors"><Facebook size={20} /></Link>
                     </div>
                     <p className="text-sm">Västerbrogatan 1</p>

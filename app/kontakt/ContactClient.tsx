@@ -116,7 +116,7 @@ export default function ContactClient() {
                                 <p className="text-neutral-500 text-sm tracking-widest uppercase mb-4">Följ oss</p>
                                 <div className="flex gap-4">
                                     <a
-                                        href="https://instagram.com/lavieboras"
+                                        href="https://www.instagram.com/la_vie_boras/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="p-3 border border-white/10 hover:border-gold-500/50 hover:text-gold-500 transition-all duration-300 rounded-sm"
