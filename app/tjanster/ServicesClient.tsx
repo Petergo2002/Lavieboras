@@ -28,7 +28,7 @@ const services = [
         description: "Trygg, snabb och lekfull upplevelse för de minsta med fokus på komfort. Vi är vana vid att klippa barn i alla åldrar.",
         image: "/IMG_8729.JPG",
         items: [
-            { name: "Barnklippning", price: "180 kr", description: "Klippning för barn upp till 12 år." },
+            { name: "Barnklippning", price: "250 kr", description: "Klippning för barn upp till 12 år." },
             { name: "Skonsam styling", price: "Ingår", description: "Enklare styling som barnet tycker om." },
         ]
     }
