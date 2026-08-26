@@ -103,8 +103,8 @@ export default function ContactClient() {
                                     <div>
                                         <h3 className="font-serif text-xl text-white group-hover:text-gold-500 transition-colors mb-2">Öppettider</h3>
                                         <div className="text-neutral-400 font-light space-y-1">
-                                            <p>Mån–Fre: 09:00 – 19:00</p>
-                                            <p>Lör: 09:00 – 16:00</p>
+                                            <p>Mån–Fre: 10:00 – 18:00</p>
+                                            <p>Lör: 10:00 – 15:00</p>
                                             <p>Sön: Stängt</p>
                                         </div>
                                     </div>

@@ -447,7 +447,7 @@ export default function FrisorBorasPage() {
                                 </div>
                                 <div className="mt-6">
                                     <p className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Öppet</p>
-                                    <p className="text-white font-light text-sm">Mån–Fre: 09–19<br />Lördag: 09–16</p>
+                                    <p className="text-white font-light text-sm">Mån–Fre: 10–18<br />Lördag: 10–15</p>
                                 </div>
                                 <div className="mt-6">
                                     <p className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Telefon</p>
@@ -621,7 +621,7 @@ export default function FrisorBorasPage() {
 
                         {/* Bottom micro-trust */}
                         <p className="text-neutral-600 font-light text-xs tracking-widest uppercase mt-12">
-                            Mån–Fre 09–19 &nbsp;·&nbsp; Lördag 09–16 &nbsp;·&nbsp; Drop-in välkommen
+                            Mån–Fre 10–18 &nbsp;·&nbsp; Lördag 10–15 &nbsp;·&nbsp; Drop-in välkommen
                         </p>
                     </div>
                 </section>

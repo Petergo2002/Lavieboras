@@ -58,8 +58,8 @@ Vi använder bara professionella produkter för tvätt, styling och skäggvård.
 **E-post:** info@lavieboras.se
 
 **Öppettider:**  
-- Måndag–Fredag: 09:00–19:00  
-- Lördag: 09:00–16:00  
+- Måndag–Fredag: 10:00–18:00  
+- Lördag: 10:00–15:00  
 
 ---
 
